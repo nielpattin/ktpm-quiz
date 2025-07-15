@@ -123,55 +123,6 @@
     .answer.selected {
         border-color: #C294FF;
     }
-    .images-row {
-      margin-top: 18px;
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-    }
-    .quiz-image {
-      width: 80px;
-      height: 80px;
-      object-fit: cover;
-      border-radius: 8px;
-      border: 2px solid #33314E;
-      cursor: pointer;
-      transition: border 0.2s;
-    }
-    .quiz-image:hover {
-      border-color: #C294FF;
-    }
-    .modal-bg {
-      display: none;
-      position: fixed;
-      z-index: 2000;
-      left: 0; top: 0; right: 0; bottom: 0;
-      background: rgba(29,27,44,0.92);
-      align-items: center;
-      justify-content: center;
-      transition: opacity 0.2s;
-    }
-    .modal-bg.active {
-      display: flex;
-    }
-    .modal-img {
-      max-width: 96vw;
-      max-height: 96vh;
-      border-radius: 12px;
-      background: #222;
-    }
-    .modal-close {
-      position: absolute;
-      top: 32px;
-      right: 48px;
-      font-size: 2.5rem;
-      color: #fff;
-      background: none;
-      border: none;
-      cursor: pointer;
-      z-index: 2001;
-    }
     .hamburger-btn {
       display: none;
       position: fixed;
@@ -282,7 +233,6 @@
         <span id="questionIndex"></span>
         <div class="question-row" id="questionText"></div>
         <div class="answers-row" id="answersList"></div>
-        <div class="images-row" id="imagesRow"></div>
         <button id="check-btn">Check</button>
       </div>
       <div class="desktop-tip">
@@ -293,27 +243,13 @@
       </div>
     </div>
   </div>
-  <div class="modal-bg" id="modalBg">
-    <button class="modal-close" id="modalCloseBtn" aria-label="Close">&times;</button>
-    <img class="modal-img" id="modalImg" src="" alt="Quiz Image">
-  </div>
   <script>
     const moduleQuizCache = new Map();
     let quizData = [];
     let current = 0;
-    let availableImages = [];
     const moduleSelect = document.getElementById('moduleSelect');
     let selectedAnswers = [];
     let questionLocked = false;
-
-    async function loadImageList() {
-      try {
-        const res = await fetch('./images/image_list.json');
-        availableImages = await res.json();
-      } catch (e) {
-        availableImages = [];
-      }
-    }
 
     async function loadQuizForModule(moduleId, startAt = 'first') {
       if (!moduleId) {
@@ -326,7 +262,6 @@
         quizData = moduleQuizCache.get(moduleId);
       } else {
         try {
-          await loadImageList();
           const res = await fetch(`/api/module?id=${moduleId}`);
           const data = await res.json();
           if (data && Array.isArray(data.quizzes)) {
@@ -361,13 +296,11 @@
       const questionTextEl = document.getElementById('questionText');
       const questionIndexEl = document.getElementById('questionIndex');
       const answersListEl = document.getElementById('answersList');
-      const imagesRowEl = document.getElementById('imagesRow');
 
       if (!quizData.length) {
         questionIndexEl.textContent = '';
         questionTextEl.textContent = 'Please select a module to begin.';
         answersListEl.innerHTML = '';
-        imagesRowEl.innerHTML = '';
         return;
       }
 
@@ -383,20 +316,6 @@
         div.onclick = () => handleAnswerClick(div, q.question_type);
         answersListEl.appendChild(div);
       });
-
-      imagesRowEl.innerHTML = '';
-      const questionId = q.id || q.question_id || q.questionId || q.qid || q.id_question || "";
-      if (questionId) {
-        const matchedImages = availableImages.filter(imgName => imgName.startsWith(String(questionId)));
-        matchedImages.forEach(imgName => {
-          const img = document.createElement('img');
-          img.className = 'quiz-image';
-          img.src = './images/' + imgName;
-          img.alt = 'Quiz Image';
-          img.onclick = () => openModal(img.src);
-          imagesRowEl.appendChild(img);
-        });
-      }
     }
 
     function handleAnswerClick(answerEl, questionType) {
@@ -479,31 +398,6 @@
         loadQuizForModule(String(prevModuleId), 'last');
     }
 
-    function openModal(src) {
-      const modalBg = document.getElementById('modalBg');
-      const modalImg = document.getElementById('modalImg');
-      modalImg.src = src;
-      modalBg.classList.add('active');
-    }
-    function closeModal() {
-      document.getElementById('modalBg').classList.remove('active');
-    }
-    document.getElementById('modalBg').onclick = (e) => {
-      if (e.target === e.currentTarget) closeModal();
-    };
-    document.getElementById('modalCloseBtn').onclick = closeModal;
-    document.addEventListener('keydown', (e) => {
-      if (document.getElementById('modalBg').classList.contains('active') && (e.key === 'Escape' || e.key === ' ')) {
-        closeModal();
-      }
-    });
-
-    document.getElementById('modalImg').onclick = () => {
-      const img = document.getElementById('modalImg');
-      if (img.requestFullscreen) img.requestFullscreen();
-      else if (img.webkitRequestFullscreen) img.webkitRequestFullscreen();
-      else if (img.msRequestFullscreen) img.msRequestFullscreen();
-    };
 
     moduleSelect.addEventListener('change', function() {
       loadQuizForModule(this.value);
@@ -562,10 +456,11 @@
     }
 
     function handleKeyNavigation(e) {
-        if (document.getElementById('modalBg').classList.contains('active')) return;
-        if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT') return;
+        // Only handle navigation if not focused on input/select and not locked
+        if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'SELECT') return;
+        if (typeof questionLocked !== 'undefined' && questionLocked) return;
 
-        if (e.key === 'ArrowDown' || e.key.toLowerCase() === 's') {
+        if (e.key === 'ArrowDown' || e.key === 's' || e.key === 'S') {
             if (current < quizData.length - 1) {
               current++;
               renderQuestion();
@@ -573,7 +468,7 @@
             } else {
               goToNextModule();
             }
-        } else if (e.key === 'ArrowUp' || e.key.toLowerCase() === 'w') {
+        } else if (e.key === 'ArrowUp' || e.key === 'w' || e.key === 'W') {
             if (current > 0) {
               current--;
               renderQuestion();
