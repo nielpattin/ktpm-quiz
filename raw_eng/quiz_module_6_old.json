@@ -1,0 +1,1001 @@
+[
+  {
+    "question_id": "q-152",
+    "question_text": "Which of the following is a code storage tool?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "HTML",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "Git",
+        "is_correct": true
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "Code Editor",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "IDE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-153",
+    "question_text": "Which of the following technologies adds more styles and function to CSS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "LESS",
+        "is_correct": true
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "HTML",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "Java",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "MORE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-154",
+    "question_text": "Which of the following statements is true regarding pair programming?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "Pair programming is a type of agile development where two developers plan and discuss their ideas as they create a solution.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "Most developers find pair programming to be an unproductive use of their time.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "Pair programming requires two developers to be in the same physical location.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "Pair programming always consists of one developer typing in the code while the other is reviewing the code as it’s written.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-155",
+    "question_text": "Which of the following do version control systems help you keep track of?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Program flow.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Errors in the code.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "Who changed the code.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Bug reports.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-156",
+    "question_text": "Which type of software engineer develops the software that users interact with?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "Systems developer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "Network engineer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "Back-end engineers",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "Front-end engineer",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-157",
+    "question_text": "Which of the following is an example of a hard skill?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "5-0",
+        "answer_text": "Cloud computing",
+        "is_correct": true
+      },
+      {
+        "answer_id": "5-1",
+        "answer_text": "Communication",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-2",
+        "answer_text": "Adaptability",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-3",
+        "answer_text": "Problem solving",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-158",
+    "question_text": "Which of the following are reasons for the high demand for software engineers?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "6-0",
+        "answer_text": "Most organizations need software applications and websites.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "6-1",
+        "answer_text": "There’s a lack of people interested in the field.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-2",
+        "answer_text": "Lots of software engineers are leaving the industry.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-3",
+        "answer_text": "Many software engineers are retiring.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-159",
+    "question_text": "A senior software engineer often:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "7-0",
+        "answer_text": "Identifies hiring needs for a company.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-1",
+        "answer_text": "Mentors other software engineers.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "7-2",
+        "answer_text": "Monitors the requirements for corporate technologies.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-3",
+        "answer_text": "Takes responsibility for the overall architecture and design of a product.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-160",
+    "question_text": "Which of the following is an advantage of using the software development lifecycle (SDLC)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "8-0",
+        "answer_text": "Increases risks",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-1",
+        "answer_text": "Team members share the same roles and responsibilities",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-2",
+        "answer_text": "Solve problems during the coding phase",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-3",
+        "answer_text": "Respond to changing requirements",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-161",
+    "question_text": "Which software development process verifies that the software matches established requirements and is free from bugs?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "9-0",
+        "answer_text": "Debugging",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-1",
+        "answer_text": "Testing",
+        "is_correct": true
+      },
+      {
+        "answer_id": "9-2",
+        "answer_text": "Coding",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-3",
+        "answer_text": "Design",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-162",
+    "question_text": "Which of the following specifications specifies policy and regulation requirements?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "10-0",
+        "answer_text": "User Requirements Specification (URS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "10-1",
+        "answer_text": "System Requirements Specification (SysRS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "10-2",
+        "answer_text": "Software Requirements Specification (SRS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "10-3",
+        "answer_text": "Application Requirements Specification (ARS)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-163",
+    "question_text": "Which of the following is a characteristic of a component?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "13-0",
+        "answer_text": "Redundant",
+        "is_correct": false
+      },
+      {
+        "answer_id": "13-1",
+        "answer_text": "Extensible",
+        "is_correct": true
+      },
+      {
+        "answer_id": "13-2",
+        "answer_text": "Revisable",
+        "is_correct": false
+      },
+      {
+        "answer_id": "13-3",
+        "answer_text": "Context-specific",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-164",
+    "question_text": "Which type of architecture is a computing model in which a server hosts, delivers, and manages most of the resources and services delivered to a client?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "14-0",
+        "answer_text": "3-tier",
+        "is_correct": false
+      },
+      {
+        "answer_id": "14-1",
+        "answer_text": "Peer-to-peer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "14-2",
+        "answer_text": "2-tier",
+        "is_correct": true
+      },
+      {
+        "answer_id": "14-3",
+        "answer_text": "Microservices",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-165",
+    "question_text": "Which one of the following is an example of an interpreted programming language?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "16-0",
+        "answer_text": "Java",
+        "is_correct": false
+      },
+      {
+        "answer_id": "16-1",
+        "answer_text": "JavaScript",
+        "is_correct": true
+      },
+      {
+        "answer_id": "16-2",
+        "answer_text": "C",
+        "is_correct": false
+      },
+      {
+        "answer_id": "16-3",
+        "answer_text": "C++",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-166",
+    "question_text": "What four key database operations does the acronym CRUD stand for?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "17-0",
+        "answer_text": "Create, Read, Undo, Detain",
+        "is_correct": false
+      },
+      {
+        "answer_id": "17-1",
+        "answer_text": "Create, Read, Update, Delete",
+        "is_correct": true
+      },
+      {
+        "answer_id": "17-2",
+        "answer_text": "Correct, Read, Update, Detain",
+        "is_correct": false
+      },
+      {
+        "answer_id": "17-3",
+        "answer_text": "Correct, Randomize, Undo, Delete",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-167",
+    "question_text": "The “While” keyword is used to perform which of the following type of programming logic?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "18-0",
+        "answer_text": "Loop",
+        "is_correct": true
+      },
+      {
+        "answer_id": "18-1",
+        "answer_text": "Branch",
+        "is_correct": false
+      },
+      {
+        "answer_id": "18-2",
+        "answer_text": "If",
+        "is_correct": false
+      },
+      {
+        "answer_id": "18-3",
+        "answer_text": "For",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-168",
+    "question_text": "What is the name of a special type of identifier that you can use to reference multiple program elements?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "19-0",
+        "answer_text": "Constant",
+        "is_correct": false
+      },
+      {
+        "answer_id": "19-1",
+        "answer_text": "Identifier",
+        "is_correct": false
+      },
+      {
+        "answer_id": "19-2",
+        "answer_text": "Container",
+        "is_correct": false
+      },
+      {
+        "answer_id": "19-3",
+        "answer_text": "Variable",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-169",
+    "question_text": "Emly wants to manage and store codes while using integrated development environment (IDE) that supports integration with code storage tools. Which of the following tools can help Emly with her requirements?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "Cascading Style Sheet (CSS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "Git",
+        "is_correct": true
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "JavaScript",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "Hypertext Markup Language (HTML)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-170",
+    "question_text": "Which tool Rosy should leverage to enhance Cascading Style Sheet’s (CSS) features by adding more styles and functionality that is also backward compatible with CSS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "Linear style sheet (LESS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "Hypertext Markup Language (HTML)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "Syntactically awesome style sheets (SASS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "React.js",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-171",
+    "question_text": "You are exploring agile practices and starting pair programming with your colleague to work on a new module. You both sit together and start exchanging feedback to work on the new module. Which of the following statements best describes this approach?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "Pair programming is a type of agile development where two developers plan and discuss their ideas as they create a solution.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "Pair programming requires two developers to be in the same physical location.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "Most developers find pair programming to be an unproductive use of their time.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "Pair programming always consists of one developer typing in the code while the other is reviewing the code as it’s written.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-172",
+    "question_text": "The IT security team at a financial institution is investigating potential unauthorized code modifications during a recent audit. What critical information can version control systems provide to support their investigation?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Code modification authors",
+        "is_correct": true
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Complete system architecture diagrams",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "Full application performance logs",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Detailed bug tracking reports",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-173",
+    "question_text": "A digital marketing agency wants to design and maintain complex network controllers and operating systems that manage data traffic across platforms. What type of software engineer should they hire?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "Systems developer",
+        "is_correct": true
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "DevOps engineer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "Front-end engineer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "Back-end engineer",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-174",
+    "question_text": "Priya noticed a performance issue in the application after its deployment. Which technical skill will help her resolve this issue?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "5-0",
+        "answer_text": "Cloud computing",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-1",
+        "answer_text": "Monitoring and troubleshooting",
+        "is_correct": true
+      },
+      {
+        "answer_id": "5-2",
+        "answer_text": "Communication and teamwork",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-3",
+        "answer_text": "Adaptability and feedback",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-175",
+    "question_text": "A technology investment firm is analyzing the growing technology workforce landscape. What fundamental factor is driving the increased demand for software engineers?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "6-0",
+        "answer_text": "Demand for software applications and websites",
+        "is_correct": true
+      },
+      {
+        "answer_id": "6-1",
+        "answer_text": "Declining technology student enrollment",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-2",
+        "answer_text": "Widespread industry job dissatisfaction",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-3",
+        "answer_text": "Mass retirement of current engineers",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-176",
+    "question_text": "Sana has recently been promoted to a senior software engineer. She wants to understand better how she can help her team beyond writing code. Which of the following tasks aligns primarily with Sana?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "7-0",
+        "answer_text": "Identifying hiring needs within the company",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-1",
+        "answer_text": "Providing guidance and support to junior developers",
+        "is_correct": true
+      },
+      {
+        "answer_id": "7-2",
+        "answer_text": "Managing corporate technology requirements",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-3",
+        "answer_text": "Taking charge of the overall product design and architecture",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-177",
+    "question_text": "A development team is building a new app. To stay organized and adapt to changing requirements, they follow the Software Development Lifecycle (SDLC). Which of the following is a key advantage of using the Software Development Life Cycle (SDLC)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "8-0",
+        "answer_text": "It allows teams to adjust requirements as needed.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "8-1",
+        "answer_text": "It increases risks in software development.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-2",
+        "answer_text": "It helps team members share the same roles and responsibilities.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-3",
+        "answer_text": "It solves problems during the coding phase.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-178",
+    "question_text": "Which software development process verifies that the code is readable, maintainable, and follows consistent standards to minimize defects?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "9-0",
+        "answer_text": "Coding for quality",
+        "is_correct": true
+      },
+      {
+        "answer_id": "9-1",
+        "answer_text": "Requirements",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-2",
+        "answer_text": "Design",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-3",
+        "answer_text": "Testing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-179",
+    "question_text": "Before starting a new project, a project manager conducts a meeting to ensure all the departments, including sales, customer support, and IT, are involved in defining the project scope. This statement caters to which requirement-gathering step?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "10-0",
+        "answer_text": "Analyzing requirements",
+        "is_correct": false
+      },
+      {
+        "answer_id": "10-1",
+        "answer_text": "Identifying requirements",
+        "is_correct": false
+      },
+      {
+        "answer_id": "10-2",
+        "answer_text": "Eliciting requirements",
+        "is_correct": false
+      },
+      {
+        "answer_id": "10-3",
+        "answer_text": "Prioritizing requirements",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-180",
+    "question_text": "Which of the following software development methodologies easily handles changing requirements and enables feedback to be regularly incorporated into the solution?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "11-0",
+        "answer_text": "Sequential",
+        "is_correct": false
+      },
+      {
+        "answer_id": "11-1",
+        "answer_text": "V-shape model",
+        "is_correct": false
+      },
+      {
+        "answer_id": "11-2",
+        "answer_text": "Waterfall",
+        "is_correct": false
+      },
+      {
+        "answer_id": "11-3",
+        "answer_text": "Agile",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-181",
+    "question_text": "A software engineer is defining attributes for an object in an object-oriented programming language. These attributes store information related to the object, such as its color, size, or name. What are these attributes called?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "12-0",
+        "answer_text": "Property",
+        "is_correct": true
+      },
+      {
+        "answer_id": "12-1",
+        "answer_text": "Instance",
+        "is_correct": false
+      },
+      {
+        "answer_id": "12-2",
+        "answer_text": "Blueprint",
+        "is_correct": false
+      },
+      {
+        "answer_id": "12-3",
+        "answer_text": "Class",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-182",
+    "question_text": "Which characteristic ensures that a component can be expanded with additional functionality without modifying its core structure?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "13-0",
+        "answer_text": "Extensible",
+        "is_correct": true
+      },
+      {
+        "answer_id": "13-1",
+        "answer_text": "Revisable",
+        "is_correct": false
+      },
+      {
+        "answer_id": "13-2",
+        "answer_text": "Repeatable",
+        "is_correct": false
+      },
+      {
+        "answer_id": "13-3",
+        "answer_text": "Context-specific",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-183",
+    "question_text": "Which architecture style is best suited for the banking system, where the system breaks down its functions into various independently deployable segments communicating over HTTP?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "14-0",
+        "answer_text": "Microservices",
+        "is_correct": true
+      },
+      {
+        "answer_id": "14-1",
+        "answer_text": "3-tier",
+        "is_correct": false
+      },
+      {
+        "answer_id": "14-2",
+        "answer_text": "2-tier",
+        "is_correct": false
+      },
+      {
+        "answer_id": "14-3",
+        "answer_text": "Peer-to-peer",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-184",
+    "question_text": "Your team is tasked with identifying bugs in the application, ensuring the components in the application work as expected before integrating them into the actual production setup. Which environment will you primarily use in this scenario?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "15-0",
+        "answer_text": "Development",
+        "is_correct": false
+      },
+      {
+        "answer_id": "15-1",
+        "answer_text": "QA",
+        "is_correct": true
+      },
+      {
+        "answer_id": "15-2",
+        "answer_text": "Staging",
+        "is_correct": false
+      },
+      {
+        "answer_id": "15-3",
+        "answer_text": "Production",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-185",
+    "question_text": "Which of the following programming languages will you leverage for updating the core modules of an embedded system that requires conversion of source code to machine code for faster execution?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "16-0",
+        "answer_text": "C++",
+        "is_correct": false
+      },
+      {
+        "answer_id": "16-1",
+        "answer_text": "C",
+        "is_correct": true
+      },
+      {
+        "answer_id": "16-2",
+        "answer_text": "JavaScript",
+        "is_correct": false
+      },
+      {
+        "answer_id": "16-3",
+        "answer_text": "Java",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-186",
+    "question_text": "Which fundamental database operations are represented by the acronym CRUD?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "17-0",
+        "answer_text": "Correct, Read, Update, Detain",
+        "is_correct": false
+      },
+      {
+        "answer_id": "17-1",
+        "answer_text": "Create, Read, Undo, Detain",
+        "is_correct": false
+      },
+      {
+        "answer_id": "17-2",
+        "answer_text": "Correct, Randomize, Undo, Delete",
+        "is_correct": false
+      },
+      {
+        "answer_id": "17-3",
+        "answer_text": "Create, Read, Update, Delete",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-187",
+    "question_text": "Roman wants to track the number of steps a user takes daily, which may vary throughout the day. What should Roman use to store the step count in his application?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "18-0",
+        "answer_text": "Constant",
+        "is_correct": false
+      },
+      {
+        "answer_id": "18-1",
+        "answer_text": "Variable",
+        "is_correct": true
+      },
+      {
+        "answer_id": "18-2",
+        "answer_text": "Array",
+        "is_correct": false
+      },
+      {
+        "answer_id": "18-3",
+        "answer_text": "Vector",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-188",
+    "question_text": "A software developer wants to design a “Car” component in his application and wants to define its characteristics, including color, speed, and actions, such as start() and stop(). Which programming concept will you use?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "19-0",
+        "answer_text": "Object",
+        "is_correct": true
+      },
+      {
+        "answer_id": "19-1",
+        "answer_text": "Function",
+        "is_correct": false
+      },
+      {
+        "answer_id": "19-2",
+        "answer_text": "Variable",
+        "is_correct": false
+      },
+      {
+        "answer_id": "19-3",
+        "answer_text": "Loop",
+        "is_correct": false
+      }
+    ]
+  }
+]

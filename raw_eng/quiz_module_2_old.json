@@ -1,0 +1,1332 @@
+[
+    {
+        "question_id": "q-41",
+        "question_text": "Which of the following technologies can you use to add styles and flair to a web page?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "0-0",
+                "answer_text": "HTML",
+                "is_correct": false
+            },
+            {
+                "answer_id": "0-1",
+                "answer_text": "CSS",
+                "is_correct": true
+            },
+            {
+                "answer_id": "0-2",
+                "answer_text": "JavaScript",
+                "is_correct": false
+            },
+            {
+                "answer_id": "0-3",
+                "answer_text": "Java",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-42",
+        "question_text": "Which of the following technologies can you use to create websites that work across different web browsers? (Select Two)",
+        "question_type": "multiple_answer_question",
+        "answers": [
+            {
+                "answer_id": "1-0",
+                "answer_text": "CSS",
+                "is_correct": true
+            },
+            {
+                "answer_id": "1-1",
+                "answer_text": "JavaScript",
+                "is_correct": true
+            },
+            {
+                "answer_id": "1-2",
+                "answer_text": "Java",
+                "is_correct": false
+            },
+            {
+                "answer_id": "1-3",
+                "answer_text": "C++",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-43",
+        "question_text": "Which of the following technologies enables you to use variables and nested rules to simplify your stylesheets?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "2-0",
+                "answer_text": "HTML",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2-1",
+                "answer_text": "XML",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2-2",
+                "answer_text": "SASS",
+                "is_correct": true
+            },
+            {
+                "answer_id": "2-3",
+                "answer_text": "CSS",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-44",
+        "question_text": "Which type of developer is most likely to use SQL in web development?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "3-0",
+                "answer_text": "UI developer",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3-1",
+                "answer_text": "Back-end developer",
+                "is_correct": true
+            },
+            {
+                "answer_id": "3-2",
+                "answer_text": "Middleware developer",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3-3",
+                "answer_text": "Front-end developer",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-45",
+        "question_text": "Which of the following team meetings is usually held after a project is complete?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "4-0",
+                "answer_text": "Code review",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4-1",
+                "answer_text": "Kick-off",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4-2",
+                "answer_text": "Retrospective",
+                "is_correct": true
+            },
+            {
+                "answer_id": "4-3",
+                "answer_text": "Mentor",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-46",
+        "question_text": "What can a JavaScript library like jQuery do for you?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "0-0",
+                "answer_text": "Save development time",
+                "is_correct": true
+            },
+            {
+                "answer_id": "0-1",
+                "answer_text": "Debug HTML errors",
+                "is_correct": false
+            },
+            {
+                "answer_id": "0-2",
+                "answer_text": "Save data to a database",
+                "is_correct": false
+            },
+            {
+                "answer_id": "0-3",
+                "answer_text": "Help in version control",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-47",
+        "question_text": "True or false? Inversion of control helps you to create standardized apps.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "1-0",
+                "answer_text": "False",
+                "is_correct": false
+            },
+            {
+                "answer_id": "1-1",
+                "answer_text": "True",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "question_id": "q-48",
+        "question_text": "Which of the following is performed by a build tool?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "2-0",
+                "answer_text": "Storing code",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2-1",
+                "answer_text": "Installing packages",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2-2",
+                "answer_text": "Transforming source code into binaries",
+                "is_correct": true
+            },
+            {
+                "answer_id": "2-3",
+                "answer_text": "Providing code for reuse",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-49",
+        "question_text": "Fill in the blank. Package managers make the end-user’s life easy by _______________.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "3-0",
+                "answer_text": "backing up data",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3-1",
+                "answer_text": "fixing errors in code automatically",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3-2",
+                "answer_text": "downloading and installing packages from repositories",
+                "is_correct": true
+            },
+            {
+                "answer_id": "3-3",
+                "answer_text": "securing applications",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-50",
+        "question_text": "True or false? Software stacks always consist of the following three layers: presentation, business logic, and data.",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "4-0",
+                "answer_text": "True",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4-1",
+                "answer_text": "False",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "question_id": "q-51",
+        "question_text": "Which technology is a front-end developer most likely to work with?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "0-0",
+                "answer_text": "HTML",
+                "is_correct": true
+            },
+            {
+                "answer_id": "0-1",
+                "answer_text": "Java",
+                "is_correct": false
+            },
+            {
+                "answer_id": "0-2",
+                "answer_text": "SQL",
+                "is_correct": false
+            },
+            {
+                "answer_id": "0-3",
+                "answer_text": "Databases",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-52",
+        "question_text": "Which of the following technologies can you use to ensure uniformity in look, feel, style, colors, font, and layouts on a website?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "1-0",
+                "answer_text": "XML",
+                "is_correct": false
+            },
+            {
+                "answer_id": "1-1",
+                "answer_text": "CSS",
+                "is_correct": true
+            },
+            {
+                "answer_id": "1-2",
+                "answer_text": "HTML",
+                "is_correct": false
+            },
+            {
+                "answer_id": "1-3",
+                "answer_text": "JavaScript",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-53",
+        "question_text": "Which of the following are used in back-end development?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "2-0",
+                "answer_text": "LESS",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2-1",
+                "answer_text": "CSS",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2-2",
+                "answer_text": "SQL",
+                "is_correct": true
+            },
+            {
+                "answer_id": "2-3",
+                "answer_text": "HTML",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-54",
+        "question_text": "Which of the following technologies provide a way for cloud apps to access resources from the back-end?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "3-0",
+                "answer_text": "IDEs",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3-1",
+                "answer_text": "Routes",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3-2",
+                "answer_text": "Styles",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3-3",
+                "answer_text": "APIs",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "question_id": "q-55",
+        "question_text": "Which of the following pair programming styles is a good way for a junior software engineer to learn from a more experienced colleague?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "4-0",
+                "answer_text": "Strong style",
+                "is_correct": true
+            },
+            {
+                "answer_id": "4-1",
+                "answer_text": "Ping-pong style",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4-2",
+                "answer_text": "Driver style",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4-3",
+                "answer_text": "Navigator style",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-56",
+        "question_text": "Which of the following is a development framework?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "5-0",
+                "answer_text": "Vue.js",
+                "is_correct": true
+            },
+            {
+                "answer_id": "5-1",
+                "answer_text": "JavaScript",
+                "is_correct": false
+            },
+            {
+                "answer_id": "5-2",
+                "answer_text": "Git",
+                "is_correct": false
+            },
+            {
+                "answer_id": "5-3",
+                "answer_text": "Ruby",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-57",
+        "question_text": "Which of the following statements about app development frameworks is correct?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "6-0",
+                "answer_text": "Frameworks can be changed during any phase of development.",
+                "is_correct": false
+            },
+            {
+                "answer_id": "6-1",
+                "answer_text": "Frameworks provide a way to build and deploy applications.",
+                "is_correct": false
+            },
+            {
+                "answer_id": "6-2",
+                "answer_text": "Frameworks provide standard programs and subroutines that you can use in your own code.",
+                "is_correct": false
+            },
+            {
+                "answer_id": "6-3",
+                "answer_text": "Frameworks keep track of what changes were made when and by whom and resolve",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-58",
+        "question_text": "Which process automatically builds and tests your code?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "7-0",
+                "answer_text": "Continuous delivery",
+                "is_correct": false
+            },
+            {
+                "answer_id": "7-1",
+                "answer_text": "Continuous investigation",
+                "is_correct": false
+            },
+            {
+                "answer_id": "7-2",
+                "answer_text": "Continuous development",
+                "is_correct": false
+            },
+            {
+                "answer_id": "7-3",
+                "answer_text": "Continuous integration",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "question_id": "q-59",
+        "question_text": "Which of the following is a build tool?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "8-0",
+                "answer_text": "npm",
+                "is_correct": false
+            },
+            {
+                "answer_id": "8-1",
+                "answer_text": "Homebrew",
+                "is_correct": false
+            },
+            {
+                "answer_id": "8-2",
+                "answer_text": "Pip",
+                "is_correct": false
+            },
+            {
+                "answer_id": "8-3",
+                "answer_text": "Babel",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "question_id": "q-60",
+        "question_text": "Which of the following is an example of a software stack?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "9-0",
+                "answer_text": "Chocolatey",
+                "is_correct": false
+            },
+            {
+                "answer_id": "9-1",
+                "answer_text": "Maven",
+                "is_correct": false
+            },
+            {
+                "answer_id": "9-2",
+                "answer_text": "Ruby on Rails",
+                "is_correct": true
+            },
+            {
+                "answer_id": "9-3",
+                "answer_text": "Conda",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-61",
+        "question_text": "Ayesha is designing the layout of a website, focusing on content structure and visual organization. Which technology is she most likely working with?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "0-0",
+                "answer_text": "Cascading Style Sheets (CSS)",
+                "is_correct": false
+            },
+            {
+                "answer_id": "0-1",
+                "answer_text": "Hypertext Markup Language (HTML)",
+                "is_correct": true
+            },
+            {
+                "answer_id": "0-2",
+                "answer_text": "Java",
+                "is_correct": false
+            },
+            {
+                "answer_id": "0-3",
+                "answer_text": "Structured Query Language (SQL)",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-62",
+        "question_text": "You want to structure the content on a website using headings, paragraphs, lists, and links. Which technology will you use in this scenario?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "1-0",
+                "answer_text": "JavaScript",
+                "is_correct": false
+            },
+            {
+                "answer_id": "1-1",
+                "answer_text": "eXtensible Markup Language (XML)",
+                "is_correct": false
+            },
+            {
+                "answer_id": "1-2",
+                "answer_text": "Cascading Style Sheets (CSS)",
+                "is_correct": false
+            },
+            {
+                "answer_id": "1-3",
+                "answer_text": "Hypertext Markup Language (HTML)",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "question_id": "q-63",
+        "question_text": "A web application needs to handle dynamic content and secure transactions. What role does the back-end development play?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "2-0",
+                "answer_text": "Managing browser compatibility",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2-1",
+                "answer_text": "Processing data requests and securing transactions",
+                "is_correct": true
+            },
+            {
+                "answer_id": "2-2",
+                "answer_text": "Designing the user interface",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2-3",
+                "answer_text": "Creating animations for the application",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-64",
+        "question_text": "Meera tries to log into the website, but receives a 404 error continuously with her credentials. What is the most likely error in the back-end?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "3-0",
+                "answer_text": "Incomplete CSS styles that restrict page load",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3-1",
+                "answer_text": "Incorrect HTML structure on the login page",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3-2",
+                "answer_text": "Invalid JavaScript in front-end",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3-3",
+                "answer_text": "Missing endpoints or incorrect routing",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "question_id": "q-65",
+        "question_text": "Lama and Jacky are working together on the application, where one writes code and the other reviews and provides direction. They regularly switch their roles. Which pair programming style best suits this scenario?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "4-0",
+                "answer_text": "Ping-pong style",
+                "is_correct": true
+            },
+            {
+                "answer_id": "4-1",
+                "answer_text": "Strong style",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4-2",
+                "answer_text": "Driver style",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4-3",
+                "answer_text": "Navigator style",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-66",
+        "question_text": "Which technology is categorized as a structured system that provides developers with tools for building web applications?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "5-0",
+                "answer_text": "Ruby",
+                "is_correct": false
+            },
+            {
+                "answer_id": "5-1",
+                "answer_text": "Vue.js",
+                "is_correct": true
+            },
+            {
+                "answer_id": "5-2",
+                "answer_text": "Git",
+                "is_correct": false
+            },
+            {
+                "answer_id": "5-3",
+                "answer_text": "JavaScript",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-67",
+        "question_text": "You are planning a cloud app, process, and need to select the architecture and workflow from the start. Which tool should you use in this scenario?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "6-0",
+                "answer_text": "Repository",
+                "is_correct": false
+            },
+            {
+                "answer_id": "6-1",
+                "answer_text": "Library",
+                "is_correct": false
+            },
+            {
+                "answer_id": "6-2",
+                "answer_text": "Version control",
+                "is_correct": false
+            },
+            {
+                "answer_id": "6-3",
+                "answer_text": "Framework",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "question_id": "q-68",
+        "question_text": "A development team is using a tool that automates code integration and testing, ensuring that all code components work together smoothly. What process are they implementing to automatically build and test your code?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "7-0",
+                "answer_text": "Code refactoring",
+                "is_correct": false
+            },
+            {
+                "answer_id": "7-1",
+                "answer_text": "Version control",
+                "is_correct": false
+            },
+            {
+                "answer_id": "7-2",
+                "answer_text": "Continuous integration",
+                "is_correct": true
+            },
+            {
+                "answer_id": "7-3",
+                "answer_text": "Debugging",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-69",
+        "question_text": "Seeni is managing third-party libraries and ensuring your application always uses the correct versions of dependencies. Which tool would should she use in this scenario?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "8-0",
+                "answer_text": "Debugger",
+                "is_correct": false
+            },
+            {
+                "answer_id": "8-1",
+                "answer_text": "Continuous integration tool",
+                "is_correct": false
+            },
+            {
+                "answer_id": "8-2",
+                "answer_text": "Build tool",
+                "is_correct": false
+            },
+            {
+                "answer_id": "8-3",
+                "answer_text": "Package manager",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "question_id": "q-70",
+        "question_text": "As a software engineer, you are tasked with developing a web application that requires both client-side and server-side functionalities. Which development stack would allow you to use a single programming language across both the front-end and back-end, simplifying the development process?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "9-0",
+                "answer_text": "LAMP stack",
+                "is_correct": false
+            },
+            {
+                "answer_id": "9-1",
+                "answer_text": "ASP.NET stack",
+                "is_correct": false
+            },
+            {
+                "answer_id": "9-2",
+                "answer_text": "MEAN stack",
+                "is_correct": true
+            },
+            {
+                "answer_id": "9-3",
+                "answer_text": "Python-Django stack",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-71",
+        "question_text": "Liam wants to add clickable buttons for pop-up messages on the website. Which technology should Liam use in this scenario?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "0-0",
+                "answer_text": "Cascading Style Sheet (CSS)",
+                "is_correct": false
+            },
+            {
+                "answer_id": "0-1",
+                "answer_text": "JavaScript",
+                "is_correct": true
+            },
+            {
+                "answer_id": "0-2",
+                "answer_text": "Hypertext Markup Language (HTML)",
+                "is_correct": false
+            },
+            {
+                "answer_id": "0-3",
+                "answer_text": "Structured Query Language (SQL)",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-72",
+        "question_text": "As a front-end developer, you are creating an online shopping website that is both visually appealing and interactive. Which combination of technologies would you primarily use to achieve this?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "1-0",
+                "answer_text": "CSS, Java, and Node.js",
+                "is_correct": false
+            },
+            {
+                "answer_id": "1-1",
+                "answer_text": "HTML, CSS, and JavaScript",
+                "is_correct": true
+            },
+            {
+                "answer_id": "1-2",
+                "answer_text": "HTML, Python, and SQL",
+                "is_correct": false
+            },
+            {
+                "answer_id": "1-3",
+                "answer_text": "JavaScript, AngularJS, and Django",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-73",
+        "question_text": "In web development, how does the back-end contribute to handling dynamic content and secure transactions?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "2-0",
+                "answer_text": "By integrating multimedia elements into the user interface",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2-1",
+                "answer_text": "By designing the aesthetic elements of the application",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2-2",
+                "answer_text": "By managing server-side operations and protecting data integrity",
+                "is_correct": true
+            },
+            {
+                "answer_id": "2-3",
+                "answer_text": "By ensuring the application runs smoothly on different web browsers",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-74",
+        "question_text": "While browsing an e-commerce website, Alan added a product to his cart and proceeded to payment by entering credit card details, and selected Pay. He wants to ensure that his payment is secure. Which of the following developers ensures that the sensitive customer information is securely stored and processed?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "3-0",
+                "answer_text": "Back-end developer",
+                "is_correct": true
+            },
+            {
+                "answer_id": "3-1",
+                "answer_text": "Database administrator",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3-2",
+                "answer_text": "Front-end developer",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3-3",
+                "answer_text": "Website designer",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-75",
+        "question_text": "Priya is a junior developer pairing with a senior engineer who directs the implementation but lets her write the code. Which pair programming style are they using?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "4-0",
+                "answer_text": "Driver style",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4-1",
+                "answer_text": "Navigator style",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4-2",
+                "answer_text": "Strong style",
+                "is_correct": true
+            },
+            {
+                "answer_id": "4-3",
+                "answer_text": "Ping-pong style",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-76",
+        "question_text": "Alex is planning to build a dynamic user interface for a web application and is evaluating tools that provide a predefined structure and workflow for development. Which of the following development frameworks should Alex use in this scenario?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "5-0",
+                "answer_text": "Git",
+                "is_correct": false
+            },
+            {
+                "answer_id": "5-1",
+                "answer_text": "JavaScript",
+                "is_correct": false
+            },
+            {
+                "answer_id": "5-2",
+                "answer_text": "Vue.js",
+                "is_correct": true
+            },
+            {
+                "answer_id": "5-3",
+                "answer_text": "Ruby",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-77",
+        "question_text": "Ricky is adding a user-friendly carousel feature while developing a cloud app, but he doesn’t want to build it from scratch. Which tool will Ricky use in this scenario?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "6-0",
+                "answer_text": "Libraries",
+                "is_correct": true
+            },
+            {
+                "answer_id": "6-1",
+                "answer_text": "Frameworks",
+                "is_correct": false
+            },
+            {
+                "answer_id": "6-2",
+                "answer_text": "Repository",
+                "is_correct": false
+            },
+            {
+                "answer_id": "6-3",
+                "answer_text": "Version control system",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-78",
+        "question_text": "While testing a new feature in the application, Sofia observed an unexpected behavior in it. She leveraged a tool to step through the code and found the source of the error. What process has she performed to identify the error?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "7-0",
+                "answer_text": "Debugging",
+                "is_correct": true
+            },
+            {
+                "answer_id": "7-1",
+                "answer_text": "Continuous integration",
+                "is_correct": false
+            },
+            {
+                "answer_id": "7-2",
+                "answer_text": "Version control",
+                "is_correct": false
+            },
+            {
+                "answer_id": "7-3",
+                "answer_text": "Code refactoring",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-79",
+        "question_text": "Seeni is managing third-party libraries and ensuring your application always uses the correct versions of dependencies. Which tool would should she use in this scenario?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "8-0",
+                "answer_text": "Build tool",
+                "is_correct": false
+            },
+            {
+                "answer_id": "8-1",
+                "answer_text": "Continuous integration tool",
+                "is_correct": false
+            },
+            {
+                "answer_id": "8-2",
+                "answer_text": "Package manager",
+                "is_correct": true
+            },
+            {
+                "answer_id": "8-3",
+                "answer_text": "Debugger",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-80",
+        "question_text": "As a software engineer, you are tasked with developing a web application that requires both client-side and server-side functionalities. Which development stack would allow you to use a single programming language across both the front-end and back-end, simplifying the development process?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "9-0",
+                "answer_text": "ASP.NET stack",
+                "is_correct": false
+            },
+            {
+                "answer_id": "9-1",
+                "answer_text": "Python-Django stack",
+                "is_correct": false
+            },
+            {
+                "answer_id": "9-2",
+                "answer_text": "MEAN stack",
+                "is_correct": true
+            },
+            {
+                "answer_id": "9-3",
+                "answer_text": "LAMP stack",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-81",
+        "question_text": "Emma is a fresher in the web application field. She wants to understand technology, she should use it to style content and add interactive features to the applications. Which of the following statements best describes the technology for Emma in this scenario?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "0-0",
+                "answer_text": "HTML defines the structure, CSS adds style, and JavaScript adds interactivity",
+                "is_correct": true
+            },
+            {
+                "answer_id": "0-1",
+                "answer_text": "JavaScript organizes structure, CSS adds interactivity, and HTML adds style",
+                "is_correct": false
+            },
+            {
+                "answer_id": "0-2",
+                "answer_text": "HTML adds style, JavaScript adds interactivity, and CSS organizes the content",
+                "is_correct": false
+            },
+            {
+                "answer_id": "0-3",
+                "answer_text": "CSS organizes structure, HTML adds style, and JavaScript adds interactivity",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-82",
+        "question_text": "Ray is responsible for ensuring all company website pages share the same fonts, colors, and spacing. What technology should he use?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "1-0",
+                "answer_text": "Cascading Style Sheets (CSS)",
+                "is_correct": true
+            },
+            {
+                "answer_id": "1-1",
+                "answer_text": "Hypertext Markup Language (HTML)",
+                "is_correct": false
+            },
+            {
+                "answer_id": "1-2",
+                "answer_text": "eXtensible Markup Language (XML)",
+                "is_correct": false
+            },
+            {
+                "answer_id": "1-3",
+                "answer_text": "JavaScript",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-83",
+        "question_text": "A web application needs to handle dynamic content and secure transactions. What role does the back-end development play?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "2-0",
+                "answer_text": "Managing browser compatibility",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2-1",
+                "answer_text": "Designing the user interface",
+                "is_correct": false
+            },
+            {
+                "answer_id": "2-2",
+                "answer_text": "Processing data requests and securing transactions",
+                "is_correct": true
+            },
+            {
+                "answer_id": "2-3",
+                "answer_text": "Creating animations for the application",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-84",
+        "question_text": "Meera tries to log into the website, but receives a 404 error continuously with her credentials. What is the most likely error in the back-end?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "3-0",
+                "answer_text": "Incorrect HTML structure on the login page",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3-1",
+                "answer_text": "Incomplete CSS styles that restrict page load",
+                "is_correct": false
+            },
+            {
+                "answer_id": "3-2",
+                "answer_text": "Missing endpoints or incorrect routing",
+                "is_correct": true
+            },
+            {
+                "answer_id": "3-3",
+                "answer_text": "Invalid JavaScript in front-end",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-85",
+        "question_text": "Carl is writing a failing test, and then Leo implements code to make it pass in a test-driven development environment. For the next feature, Carl and Leo switched their responsibilities. Which pair programming style best suits this scenario?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "4-0",
+                "answer_text": "Ping-pong style",
+                "is_correct": true
+            },
+            {
+                "answer_id": "4-1",
+                "answer_text": "Driver style",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4-2",
+                "answer_text": "Navigator style",
+                "is_correct": false
+            },
+            {
+                "answer_id": "4-3",
+                "answer_text": "Strong style",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-86",
+        "question_text": "Alex is planning to build a dynamic user interface for a web application and is evaluating tools that provide a predefined structure and workflow for development. Which of the following development frameworks should Alex use in this scenario?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "5-0",
+                "answer_text": "JavaScript",
+                "is_correct": false
+            },
+            {
+                "answer_id": "5-1",
+                "answer_text": "Git",
+                "is_correct": false
+            },
+            {
+                "answer_id": "5-2",
+                "answer_text": "Ruby",
+                "is_correct": false
+            },
+            {
+                "answer_id": "5-3",
+                "answer_text": "Vue.js",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "question_id": "q-87",
+        "question_text": "While working with the cloud app, your team needs to manage changes in the source code to avoid overwriting each other’s work. Which tool will you use primarily to manage and track code changes during development?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "6-0",
+                "answer_text": "Code editor",
+                "is_correct": false
+            },
+            {
+                "answer_id": "6-1",
+                "answer_text": "Version control system",
+                "is_correct": true
+            },
+            {
+                "answer_id": "6-2",
+                "answer_text": "Libraries",
+                "is_correct": false
+            },
+            {
+                "answer_id": "6-3",
+                "answer_text": "Frameworks",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "question_id": "q-88",
+        "question_text": "While testing a new feature in the application, Sofia observed an unexpected behavior in it. She leveraged a tool to step through the code and found the source of the error. What process has she performed to identify the error?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "7-0",
+                "answer_text": "Version control",
+                "is_correct": false
+            },
+            {
+                "answer_id": "7-1",
+                "answer_text": "Continuous integration",
+                "is_correct": false
+            },
+            {
+                "answer_id": "7-2",
+                "answer_text": "Code refactoring",
+                "is_correct": false
+            },
+            {
+                "answer_id": "7-3",
+                "answer_text": "Debugging",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "question_id": "q-89",
+        "question_text": "Seeni is managing third-party libraries and ensuring your application always uses the correct versions of dependencies. Which tool would should she use in this scenario?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "8-0",
+                "answer_text": "Build tool",
+                "is_correct": false
+            },
+            {
+                "answer_id": "8-1",
+                "answer_text": "Debugger",
+                "is_correct": false
+            },
+            {
+                "answer_id": "8-2",
+                "answer_text": "Continuous integration tool",
+                "is_correct": false
+            },
+            {
+                "answer_id": "8-3",
+                "answer_text": "Package manager",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "question_id": "q-90",
+        "question_text": "A student is learning about different technology combinations used for web development. Which of these represents a complete software stack?",
+        "question_type": "single_answer_question",
+        "answers": [
+            {
+                "answer_id": "9-0",
+                "answer_text": "MEAN stack",
+                "is_correct": true
+            },
+            {
+                "answer_id": "9-1",
+                "answer_text": "Ruby on Rails stack",
+                "is_correct": false
+            },
+            {
+                "answer_id": "9-2",
+                "answer_text": "Python-Django stack",
+                "is_correct": false
+            },
+            {
+                "answer_id": "9-3",
+                "answer_text": "LAMP stack",
+                "is_correct": false
+            }
+        ]
+    }
+]

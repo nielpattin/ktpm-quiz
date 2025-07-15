@@ -1,0 +1,1082 @@
+[
+  {
+    "question_id": "q-1",
+    "question_text": "Điều nào sau đây mô tả đúng nhất về trách nhiệm chính của một software engineer?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "Thiết kế trải nghiệm người dùng (user experience)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "Viết các test case dựa trên yêu cầu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "Thiết kế, xây dựng và bảo trì các hệ thống phần mềm",
+        "is_correct": true
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "Viết tài liệu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-2",
+    "question_text": "Điều nào sau đây mô tả đúng nhất về một lợi thế chính cho một doanh nghiệp khi tuân theo SDLC?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "SDLC cung cấp một cái nhìn tổng quan về quy trình, vì vậy các bên liên quan (stakeholders) biết họ phù hợp ở đâu trong quy trình đó.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "Nó xác định vai trò của nhóm phát triển.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "Nó cho nhóm QA biết cần viết những test case nào.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "Nó cho phép sáng tạo vì cách tiếp cận ad-hoc trong phát triển phần mềm.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-3",
+    "question_text": "Điều nào sau đây mô tả đúng nhất về một hoạt động xảy ra trong giai đoạn lập kế hoạch (planning phase) của vòng đời phát triển phần mềm (SDLC)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "Quá trình coding bắt đầu.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "Các bug được xác định.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "Các yêu cầu người dùng (user requirements) được viết.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "Kiến trúc phần mềm (software architecture) được thiết kế.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-4",
+    "question_text": "Điều nào sau đây mô tả đúng nhất về một bản phát hành alpha (alpha release)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Đây là bản phát hành ổn định nhất.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Đây là phiên bản hoạt động đầu tiên của một hệ thống được phát hành cho một nhóm các bên liên quan (stakeholders) được chọn.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "Nó đáp ứng tất cả các yêu cầu chức năng (functional requirements).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Nó dành cho tất cả người dùng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-5",
+    "question_text": "Phát biểu nào mô tả đúng nhất về User Requirements Specification (URS)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "Nó có thể được kết hợp với Software Requirements Specification để tạo thành System Requirements Specification (SysRS).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "Nó chứa các yêu cầu về chính sách và quy định.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "Nó chứa các yêu cầu về chức năng, giao diện bên ngoài và phi chức năng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "Nó chủ yếu chứa các use case.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-6",
+    "question_text": "Điều nào sau đây mô tả đúng nhất về phương pháp Waterfall cho vòng đời phát triển phần mềm (SDLC)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "Đây là một phương pháp lặp (iterative) cho SDLC.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "Các test được viết trong giai đoạn xác thực (validation phase).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "Đây là một phương pháp tuần tự (sequential) cho SDLC.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "Giai đoạn cuối cùng được gọi là “giai đoạn phản hồi” (feedback stage) thay vì “giai đoạn bảo trì” (maintenance stage).",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-7",
+    "question_text": "Trong đánh số ngữ nghĩa (semantic numbering), số 9 trong số phiên bản 9.1.33.6 đại diện cho điều gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "Vị trí “9” chỉ ra các bản vá hoặc sửa lỗi nhỏ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "Vị trí “9” chỉ ra rằng các thay đổi nhỏ đã được thực hiện cho một phần mềm.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "Vị trí “9” chỉ ra các thay đổi lớn đối với phần mềm như một bản phát hành mới.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "Vị trí “9” chỉ ra các thay đổi ít quan trọng hơn một bản vá.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-8",
+    "question_text": "Điều nào sau đây mô tả đúng nhất về kiểm thử phi chức năng (non-functional testing)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "Nó bao gồm kiểm thử hộp đen (black-box testing) thay vì kiểm thử hộp trắng (white-box testing).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "Mục tiêu của kiểm thử phi chức năng là đảm bảo ứng dụng có thể sử dụng và truy cập được.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "Nó kiểm tra các thuộc tính của ứng dụng như hiệu suất và bảo mật.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "Nó chỉ quan tâm đến đầu vào và đầu ra tương ứng của hệ thống đang được kiểm tra.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-9",
+    "question_text": "Vai trò nào chịu trách nhiệm chính trong việc tạo điều kiện giao tiếp giữa các thành viên trong nhóm và các bên liên quan (stakeholders)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Information developer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Product manager",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "Software architect",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Scrum-master",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-10",
+    "question_text": "Điều nào sau đây mô tả sự khác biệt giữa tài liệu quy trình (process documentation) so với tài liệu sản phẩm (product documentation)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "Tài liệu quy trình cung cấp tài liệu kỹ thuật cho các nhà phát triển trong khi tài liệu sản phẩm giải thích các quy trình vận hành tiêu chuẩn.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "Tài liệu quy trình giải thích cách thực hiện các quy trình trong khi tài liệu sản phẩm giải thích cách sử dụng phần mềm.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "Tài liệu quy trình dành cho nhóm đảm bảo chất lượng trong khi tài liệu sản phẩm dành cho quản trị viên hệ thống.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "Tài liệu quy trình ở định dạng văn bản trong khi tài liệu sản phẩm ở định dạng video.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-11",
+    "question_text": "Điều nào sau đây là mô tả tốt nhất về software engineering?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "Tập hợp tất cả các hoạt động liên quan đến phát triển phần mềm.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "Việc áp dụng các nguyên tắc khoa học vào việc thiết kế và tạo ra phần mềm.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "Bất kỳ hoạt động nào liên quan đến phát triển phần mềm.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "Việc áp dụng các nguyên tắc khoa học vào việc tổ chức một hệ thống phần mềm.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-12",
+    "question_text": "Điều nào sau đây mô tả đúng nhất về một lợi thế chính cho một doanh nghiệp khi tuân theo SDLC?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "Nó cho phép sáng tạo vì cách tiếp cận ad-hoc trong phát triển phần mềm.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "Nó xác định tất cả các vai trò của nhóm phát triển.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "Nó cung cấp cho các nhóm phát triển một quy trình để tuân theo nhằm cải thiện hiệu quả và giảm thiểu rủi ro.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "Nó giúp các technical writers phát triển tài liệu chính xác.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-13",
+    "question_text": "Điều nào sau đây mô tả đúng nhất về một hoạt động xảy ra trong giai đoạn bảo trì (maintenance phase) của SDLC?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "Sửa các sự cố nhỏ về giao diện người dùng.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "Đặc tả yêu cầu hệ thống được viết.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "Code được kiểm tra kỹ lưỡng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "Quá trình coding bắt đầu.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-14",
+    "question_text": "Điều nào sau đây mô tả đúng nhất về một bản phát hành beta (beta release)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Đây là bản phát hành ổn định nhất.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Đây là phiên bản hoạt động đầu tiên của một hệ thống được phát hành cho một nhóm các bên liên quan (stakeholders) được chọn.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "Nó đáp ứng tất cả các yêu cầu chức năng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Nó dành cho tất cả người dùng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-15",
+    "question_text": "Phát biểu nào mô tả đúng nhất về Software Requirements Specification (SRS)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "Nó được kết hợp với User Requirements Specification (URS) để tạo thành System Requirements Specification (SysRS).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "Nó có thể được kết hợp với System Requirements Specification (SysRS) để tạo thành User Requirements Specification (URS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "Nó chứa các yêu cầu về chức năng, giao diện bên ngoài và phi chức năng.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "Nó chủ yếu chứa các use case.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-16",
+    "question_text": "Điều nào sau đây là một phương pháp lặp (iterative) cho vòng đời phát triển phần mềm (SDLC)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "5-0",
+        "answer_text": "Waterfall",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-1",
+        "answer_text": "Verification",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-2",
+        "answer_text": "V-shape",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-3",
+        "answer_text": "Agile",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-17",
+    "question_text": "Điều nào sau đây mô tả đúng nhất về kiểm thử chức năng (functional testing)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "6-0",
+        "answer_text": "Mục tiêu của nó là đảm bảo ứng dụng có thể sử dụng và truy cập được.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-1",
+        "answer_text": "Nó liên quan đến việc xác nhận rằng một thay đổi gần đây đối với ứng dụng không ảnh hưởng xấu đến chức năng hiện có.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-2",
+        "answer_text": "Nó kiểm tra các thuộc tính của ứng dụng như hiệu suất và bảo mật.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-3",
+        "answer_text": "Nó kiểm tra các thuộc tính của ứng dụng như khả năng mở rộng và tính khả dụng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-18",
+    "question_text": "Điều nào mô tả đúng nhất về kiểm thử hộp đen (black-box testing)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "7-0",
+        "answer_text": "Nó tương đương với kiểm thử hồi quy (regression testing).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-1",
+        "answer_text": "Nó được sử dụng để xác minh cấu trúc, thiết kế và mã hóa bên trong.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-2",
+        "answer_text": "Nó tương đương với kiểm thử phi chức năng (non-functional testing).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-3",
+        "answer_text": "Nó được sử dụng để kiểm tra đầu vào và đầu ra.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-19",
+    "question_text": "Vai trò nào chịu trách nhiệm chính trong việc thiết kế giao diện của phần mềm?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "8-0",
+        "answer_text": "UX designer",
+        "is_correct": true
+      },
+      {
+        "answer_id": "8-1",
+        "answer_text": "Software architect",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-2",
+        "answer_text": "Product owner",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-3",
+        "answer_text": "Stakeholder",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-20",
+    "question_text": "Điều nào sau đây là một loại tài liệu mô tả các tính năng và chức năng mong đợi của hệ thống phần mềm?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "9-0",
+        "answer_text": "Tài liệu người dùng (User documentation)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-1",
+        "answer_text": "Tài liệu thiết kế (Design documentation)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-2",
+        "answer_text": "Yêu cầu (Requirements)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "9-3",
+        "answer_text": "Tài liệu kỹ thuật (Technical documentation)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-21",
+    "question_text": "Công ty của bạn đang tìm cách thuê một kỹ sư phần mềm mới. Trong quá trình phỏng vấn, bạn yêu cầu các ứng viên định nghĩa về kỹ thuật phần mềm. Mô tả nào sau đây là chính xác nhất?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "Việc áp dụng các nguyên tắc có cấu trúc để sắp xếp các thành phần của một hệ thống phần mềm",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "Việc sử dụng các phương pháp khoa học để thiết kế và xây dựng phần mềm",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "Tập hợp đầy đủ các hoạt động liên quan đến phát triển phần mềm",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "Bất kỳ nhiệm vụ nào liên quan đến phát triển phần mềm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-22",
+    "question_text": "Một công ty phát triển phần mềm muốn giảm thiểu rủi ro phát triển và đảm bảo rằng dự án được hoàn thành trong thời gian với hiệu quả. Điều nào sau đây là phù hợp nhất trong kịch bản này để đạt được mục tiêu mong muốn?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "Giao trách nhiệm cụ thể cho từng thành viên trong nhóm.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "Thuê các technical writers để phát triển tài liệu chi tiết.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "Sử dụng vòng đời phát triển phần mềm (SDLC) để cung cấp một quy trình có cấu trúc.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "Cho phép nhóm phát triển phần mềm một cách ad-hoc, sáng tạo.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-23",
+    "question_text": "Trong khi sử dụng một ứng dụng ngân hàng đang hoạt động đầy đủ, một khách hàng nhận thấy sự khác biệt trong chi tiết giao dịch không xuất hiện trên các thiết bị di động. Hành động nào sau đây một nhà phát triển phần mềm nên thực hiện trong kịch bản này để giải quyết các vấn đề như vậy?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "Sửa các sự cố nhỏ về giao diện người dùng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "Tạo các yêu cầu hệ thống mới",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "Phát triển quy trình mã hóa từ đầu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "Kiểm tra mã kỹ lưỡng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-24",
+    "question_text": "Một công ty khởi nghiệp trong lĩnh vực chăm sóc sức khỏe đang hoàn thiện phần mềm mới của mình. Họ muốn đảm bảo rằng chương trình đáp ứng các yêu cầu của người dùng và không có lỗi trước khi ra mắt chung. Trọng tâm của nhóm kiểm thử trong giai đoạn kiểm thử của họ nên là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Viết tài liệu người dùng cho người dùng của họ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Phát triển một tài liệu thiết kế cho hệ thống.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "Xác minh phần mềm khớp với các yêu cầu.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Phát hành phiên bản alpha để người dùng nội bộ kiểm thử.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-25",
+    "question_text": "Một người quản lý dự án đang thu thập ý kiến từ các bên liên quan về các yêu cầu hệ thống kiểm kê mới. Họ nên phát triển tài liệu nào để ghi lại đúng các khả năng và ràng buộc của hệ thống?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "Tài liệu đặc tả yêu cầu người dùng (URS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "Tài liệu đặc tả yêu cầu hệ thống (SysRS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "Tài liệu kiểm soát giao diện (ICD)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "Tài liệu đặc tả yêu cầu phần mềm (SRS)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-26",
+    "question_text": "Một công ty khởi nghiệp đang sử dụng một phương pháp phát triển trong đó phần mềm được xây dựng theo từng phần nhỏ, cho phép kiểm thử và phản hồi thường xuyên ở mỗi lần lặp. Bạn gọi phương pháp này là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "5-0",
+        "answer_text": "Verification",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-1",
+        "answer_text": "Waterfall",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-2",
+        "answer_text": "V-shape",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-3",
+        "answer_text": "Agile",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-27",
+    "question_text": "Tara đang kiểm thử một ứng dụng phần mềm mới, đảm bảo nó hoạt động hiệu quả theo yêu cầu của người dùng và dễ sử dụng. Tara nên sử dụng loại kiểm thử nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "6-0",
+        "answer_text": "Nó đảm bảo các thay đổi gần đây hạn chế việc phá vỡ chức năng hiện có.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-1",
+        "answer_text": "Nó kiểm tra các thuộc tính của ứng dụng như hiệu suất và bảo mật.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-2",
+        "answer_text": "Mục tiêu của nó là đảm bảo ứng dụng có thể sử dụng và truy cập được.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "6-3",
+        "answer_text": "Nó kiểm tra các thuộc tính của ứng dụng như khả năng mở rộng và tính khả dụng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-28",
+    "question_text": "Là một nhà phát triển phần mềm, bạn muốn viết mã rõ ràng, hiệu quả và dễ bảo trì bằng cách tuân theo các phương pháp hay nhất định. Giai đoạn vòng đời phát triển phần mềm nào hỗ trợ giai đoạn này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "7-0",
+        "answer_text": "Thiết kế phần mềm",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-1",
+        "answer_text": "Chất lượng mã",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-2",
+        "answer_text": "Kiểm thử phần mềm",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-3",
+        "answer_text": "Tài liệu phần mềm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-29",
+    "question_text": "Một công ty công nghệ đang phát triển một nền tảng giao tiếp đột phá và cần xác định trách nhiệm thiết kế giao diện người dùng. Ai chịu trách nhiệm chính trong việc thiết kế giao diện phần mềm?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "8-0",
+        "answer_text": "Product Owner",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-1",
+        "answer_text": "Software architect",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-2",
+        "answer_text": "Stakeholders",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-3",
+        "answer_text": "UX designer",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-30",
+    "question_text": "Bạn muốn chuẩn bị một tài liệu giải thích cách sử dụng phần mềm sau khi nó được triển khai, bạn nên ưu tiên tạo loại tài liệu nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "9-0",
+        "answer_text": "Tài liệu phần mềm",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-1",
+        "answer_text": "Tài liệu yêu cầu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-2",
+        "answer_text": "Tài liệu kỹ thuật",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-3",
+        "answer_text": "Tài liệu người dùng",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-31",
+    "question_text": "Công ty của bạn đang tìm cách thuê một kỹ sư phần mềm mới. Trong quá trình phỏng vấn, bạn yêu cầu các ứng viên định nghĩa về kỹ thuật phần mềm. Mô tả nào sau đây là chính xác nhất?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "Bất kỳ nhiệm vụ nào liên quan đến phát triển phần mềm",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "Việc áp dụng các nguyên tắc có cấu trúc để sắp xếp các thành phần của một hệ thống phần mềm",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "Tập hợp đầy đủ các hoạt động liên quan đến phát triển phần mềm",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "Việc sử dụng các phương pháp khoa học để thiết kế và xây dựng phần mềm",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-32",
+    "question_text": "Tanya muốn giảm thiểu rủi ro dự án và đảm bảo rằng quy trình phát triển dự án của cô ấy có cấu trúc và hiệu quả. Tanya có những lợi ích nào của vòng đời phát triển phần mềm (SDLC) trong kịch bản này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "Khuyến khích các phương pháp tiếp cận ad-hoc để linh hoạt trong việc thực hiện dự án.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "Buộc phải xác định chặt chẽ trách nhiệm của tất cả các thành viên trong nhóm.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "Tập trung vào việc tạo tài liệu liên quan đến phần mềm.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "Giúp các nhóm phát triển làm việc có hệ thống, cải thiện hiệu quả và giảm thiểu rủi ro.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-33",
+    "question_text": "Một tổ chức tài chính đã ra mắt một hệ thống ngân hàng trực tuyến mới. Sau một vài tháng, khách hàng báo cáo các sự cố nhỏ với lịch sử giao dịch không hiển thị chính xác trên một số thiết bị. Hoạt động chính nào được thực hiện trong giai đoạn bảo trì của SDLC để giải quyết các vấn đề như vậy?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "Sửa lỗi hiển thị giao dịch nhỏ",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "Vạch ra các yêu cầu tính năng mới",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "Chạy các bài kiểm tra hệ thống sâu rộng trước khi ra mắt",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "Phát triển và kiểm thử hệ thống từ đầu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-34",
+    "question_text": "Một công ty khởi nghiệp trong lĩnh vực chăm sóc sức khỏe đang hoàn thiện phần mềm mới của mình. Họ muốn đảm bảo rằng chương trình đáp ứng các yêu cầu của người dùng và không có lỗi trước khi ra mắt chung. Trọng tâm của nhóm kiểm thử trong giai đoạn kiểm thử của họ nên là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Phát hành phiên bản alpha để người dùng nội bộ kiểm thử.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Xác minh phần mềm khớp với các yêu cầu.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "Viết tài liệu người dùng cho người dùng của họ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Phát triển một tài liệu thiết kế cho hệ thống.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-35",
+    "question_text": "Một người quản lý dự án đang thu thập ý kiến từ các bên liên quan về các yêu cầu hệ thống kiểm kê mới. Họ nên phát triển tài liệu nào để ghi lại đúng các khả năng và ràng buộc của hệ thống?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "Tài liệu đặc tả yêu cầu phần mềm (SRS)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "Tài liệu kiểm soát giao diện (ICD)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "Tài liệu đặc tả yêu cầu hệ thống (SysRS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "Tài liệu đặc tả yêu cầu người dùng (URS)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-36",
+    "question_text": "Một tổ chức đang lên kế hoạch cho phương pháp phát triển phần mềm của mình với một quy trình phát triển từng bước nghiêm ngặt, trong đó một giai đoạn phải được hoàn thành trước khi bắt đầu một giai đoạn mới. Kịch bản này mô tả mô hình vòng đời phát triển phần mềm (SDLC) nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "5-0",
+        "answer_text": "Verification",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-1",
+        "answer_text": "Agile",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-2",
+        "answer_text": "Waterfall",
+        "is_correct": true
+      },
+      {
+        "answer_id": "5-3",
+        "answer_text": "V-shape",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-37",
+    "question_text": "Nhóm phát triển của một nền tảng giáo dục trực tuyến sáng tạo đang tiến hành các bài kiểm tra hệ thống toàn diện. Khía cạnh chính nào mà kiểm thử chức năng giải quyết?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "6-0",
+        "answer_text": "Xác minh tác động của các sửa đổi gần đây đối với các khả năng hiện có của hệ thống.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-1",
+        "answer_text": "Đo lường cơ sở hạ tầng hệ thống và khả năng phân bổ tài nguyên.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-2",
+        "answer_text": "Đánh giá sự mạnh mẽ của hệ thống thông qua các chỉ số hiệu suất kỹ thuật.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-3",
+        "answer_text": "Đảm bảo ứng dụng đáp ứng các tiêu chuẩn tương tác và khả năng truy cập cốt lõi của người dùng.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-38",
+    "question_text": "Là một nhà phát triển phần mềm, bạn muốn viết mã rõ ràng, hiệu quả và dễ bảo trì bằng cách tuân theo các phương pháp hay nhất định. Giai đoạn vòng đời phát triển phần mềm nào hỗ trợ giai đoạn này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "7-0",
+        "answer_text": "Chất lượng mã",
+        "is_correct": true
+      },
+      {
+        "answer_id": "7-1",
+        "answer_text": "Tài liệu phần mềm",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-2",
+        "answer_text": "Thiết kế phần mềm",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-3",
+        "answer_text": "Kiểm thử phần mềm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-39",
+    "question_text": "Một nhóm phát triển sản phẩm đang thảo luận về việc ưu tiên các tính năng cho bản phát hành tiếp theo dựa trên yêu cầu của khách hàng. Vai trò nào sau đây đưa ra quyết định về mức độ ưu tiên của tính năng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "8-0",
+        "answer_text": "Product Owner",
+        "is_correct": true
+      },
+      {
+        "answer_id": "8-1",
+        "answer_text": "Software architect",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-2",
+        "answer_text": "UX designer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-3",
+        "answer_text": "Stakeholder",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-40",
+    "question_text": "Bạn muốn chuẩn bị một tài liệu giải thích cách sử dụng phần mềm sau khi nó được triển khai, bạn nên ưu tiên tạo loại tài liệu nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "9-0",
+        "answer_text": "Tài liệu yêu cầu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-1",
+        "answer_text": "Tài liệu người dùng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "9-2",
+        "answer_text": "Tài liệu phần mềm",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-3",
+        "answer_text": "Tài liệu kỹ thuật",
+        "is_correct": false
+      }
+    ]
+  }
+]

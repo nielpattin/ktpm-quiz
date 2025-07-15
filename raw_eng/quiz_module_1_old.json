@@ -1,0 +1,1082 @@
+[
+  {
+    "question_id": "q-1",
+    "question_text": "Which of the following best describes the primary responsibilities of a software engineer?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "Designing the user experience",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "Writing test cases based on requirements",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "Designing, building, and maintaining software systems",
+        "is_correct": true
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "Writing documentation",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-2",
+    "question_text": "Which of the following best describes a key advantage for a business to follow the SDLC?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "The SDLC offers an overview of the process, so stakeholders know where they fit into that process.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "It defines the roles of the development team.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "It tells the QA team what test cases to write.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "It allows for creativity because of its adhoc approach to software development.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-3",
+    "question_text": "Which of the following best describes an activity that happens in the planning phase of the software development lifecycle (SDLC)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "The coding process begins.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "Bugs are identified.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "User requirements are written.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "Software architecture is designed.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-4",
+    "question_text": "Which of the following best describes an alpha release?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "It is the most stable release.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "It is the first functioning version of a system released to a select group of stakeholders.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "It meets all functional requirements.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "It is intended for all users.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-5",
+    "question_text": "Which statement best describes the User Requirements Specification (URS)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "It can be combined with the Software Requirements Specification to form the System Requirements Specification (SysRS).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "It contains policy and regulation requirements.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "It contains functional, external interface, and non-functional requirements.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "It primarily contains use cases.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-6",
+    "question_text": "Which of the following best describes the Waterfall approach to the software development lifecycle (SDLC)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "It is an iterative approach to the SDLC.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "Tests are written during the validation phase.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "It is a sequential approach to the SDLC.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "The last stage is called the “feedback stage” rather than the “maintenance stage.”",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-7",
+    "question_text": "In semantic numbering, what does the 9 in the version number 9.1.33.6 represent?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "The “9” position indicates patches or minor bug fixes.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "The “9” position indicates that minor changes were made to a piece of software.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "The “9” position indicates major changes to the software such as a new release.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "The “9” position indicates changes that are less significant than a patch.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-8",
+    "question_text": "Which of the following best describes non-functional testing?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "It consists of black-box testing rather than white-box testing.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "The goal of non-functional testing is to make sure the application is usable and accessible.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "It tests application attributes like performance and security.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "It is only concerned with inputs and corresponding outputs of the system under test.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-9",
+    "question_text": "Which role is primarily responsible for facilitating communication among team members and stakeholders?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Information developer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Product manager",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "Software architect",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Scrum-master",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-10",
+    "question_text": "Which of the following describes a difference between process documentation compared to product documentation?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "Process documentation provides technical documentation to the developers whereas product documentation explains standard operating procedures.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "Process documentation explains how to execute procedures whereas product documentation explains how to use the software.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "Process documentation is intended for the quality assurance team whereas product documentation is intended for the system administrators.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "Process documentation is in a written format whereas product documentation is in video format.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-11",
+    "question_text": "Which of the following is the best description of software engineering?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "The set of all activities related to software development.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "The application of scientific principles to the design and creation of software.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "Any activity related to software development.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "The application of scientific principles to the organization of a software system.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-12",
+    "question_text": "Which of the following best describes a key advantage for a business to follow the SDLC?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "It allows for creativity because of its ad-hoc approach to software development.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "It defines all the roles of the development team.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "It gives development teams a process to follow to improve efficiency and reduce risks.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "It helps technical writers develop accurate documentation.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-13",
+    "question_text": "Which of the following best describes an activity that happens in the maintenance phase of the SDLC?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "Fixing minor user interface issues.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "The system requirements specification is written.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "Code is thoroughly tested.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "The coding process begins.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-14",
+    "question_text": "Which of the following best describes a beta release?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "It is the most stable release.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "It is the first functioning version of a system released to a select group of stakeholders.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "It meets all functional requirements.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "It is intended for all users.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-15",
+    "question_text": "Which statement best describes the Software Requirements Specification (SRS)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "It is combined with the User Requirements Specification (URS) to form the System Requirements Specification (SysRS).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "It can be combined with the System Requirements Specification (SysRS) to form the User Requirements Specification (URS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "It contains functional, external interface, and non-functional requirements.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "It primarily contains use cases.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-16",
+    "question_text": "Which of the following is an iterative approach to the software development lifecycle (SDLC)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "5-0",
+        "answer_text": "Waterfall",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-1",
+        "answer_text": "Verification",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-2",
+        "answer_text": "V-shape",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-3",
+        "answer_text": "Agile",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-17",
+    "question_text": "Which of the following best describes functional testing?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "6-0",
+        "answer_text": "Its goal is to make sure the application is usable and accessible.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-1",
+        "answer_text": "It is concerned with confirming that a recent change to the application is not adversely affecting existing functionality.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-2",
+        "answer_text": "It tests application attributes like performance and security.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-3",
+        "answer_text": "It tests application attributes like scalability and availability.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-18",
+    "question_text": "Which best describes black-box testing?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "7-0",
+        "answer_text": "It is equivalent to regression testing.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-1",
+        "answer_text": "It is used to verify internal structure, design, and coding.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-2",
+        "answer_text": "It is equivalent to non-functional testing.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-3",
+        "answer_text": "It is used to test inputs and outputs.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-19",
+    "question_text": "Which role is primarily responsible for designing the software’s interface?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "8-0",
+        "answer_text": "UX designer",
+        "is_correct": true
+      },
+      {
+        "answer_id": "8-1",
+        "answer_text": "Software architect",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-2",
+        "answer_text": "Product owner",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-3",
+        "answer_text": "Stakeholder",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-20",
+    "question_text": "Which of the following is a type of documentation that describes the expected features and functionality of the software system?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "9-0",
+        "answer_text": "User documentation",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-1",
+        "answer_text": "Design documentation",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-2",
+        "answer_text": "Requirements",
+        "is_correct": true
+      },
+      {
+        "answer_id": "9-3",
+        "answer_text": "Technical documentation",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-21",
+    "question_text": "Your company is looking to hire a new software engineer. During the interview process, you ask candidates to define software engineering. Which of the following is the most accurate description?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "The application of structured principles to arrange the components of a software system",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "The use of scientific methods to design and build software",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "The complete collection of activities involved in software development",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "Any task involved in software development",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-22",
+    "question_text": "A software development company wants to reduce its development risks and ensure that the project is complete within the timeline with efficiency. Which of the following is best suited in this scenario to achieve the desired goal?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "Assign particular responsibilities to each team member.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "Engage technical writers to develop detailed documentation.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "Use software development lifecycle (SDLC) to provide a structured process.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "Allow the team to develop software in an ad-hoc, creative manner.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-23",
+    "question_text": "While using a fully operational banking application, a customer noticed discrepancies in transaction details not appearing on the mobile devices. Which of the following actions should a software developer take in this scenario to resolve such issues?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "Fixing minor user interface issues",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "Create new system requirements",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "Develop coding process from scratch",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "Test codes thoroughly",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-24",
+    "question_text": "A healthcare startup is finalizing its new software. They want to ensure that the program meets user requirements and is bug-free before the general launch. What should be the focus of the testing team during their testing phase?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Write user documentation for their users.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Develop a design document for the system.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "Verify software matches requirements.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Release alpha version for internal user testing.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-25",
+    "question_text": "A project manager is collecting input from the stakeholders about the new inventory system requirements. Which document should they develop to properly capture the system’s capabilities and constraints?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "User requirements specification (URS) document",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "System requirements specifications (SysRS) document",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "Interface control document (ICD)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "Software requirements specification (SRS) document",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-26",
+    "question_text": "A startup company is using a development method where software is built in small increments, allowing frequent testing and feedback at each iteration. What do you call this approach?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "5-0",
+        "answer_text": "Verification",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-1",
+        "answer_text": "Waterfall",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-2",
+        "answer_text": "V-shape",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-3",
+        "answer_text": "Agile",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-27",
+    "question_text": "Tara is testing a new software application, ensuring it behaves efficiently according to users’ requirements and is easy to use. Which type of testing should Tara use?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "6-0",
+        "answer_text": "It ensures recent changes restrict breaking of the existing functionality.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-1",
+        "answer_text": "It tests application attributes like performance and security.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-2",
+        "answer_text": "Its goal is to make sure the application is usable and accessible.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "6-3",
+        "answer_text": "It tests application attributes like scalability and availability.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-28",
+    "question_text": "As a software developer, you want to write clear, efficient, and easy-to-maintain code by following certain best practices. Which software development lifecycle phase supports this phase?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "7-0",
+        "answer_text": "Software design",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-1",
+        "answer_text": "Code quality",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-2",
+        "answer_text": "Software testing",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-3",
+        "answer_text": "Software documentation",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-29",
+    "question_text": "A tech company is developing a groundbreaking communication platform and needs to determine user interface design responsibilities. Who is primarily responsible for designing the software interface?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "8-0",
+        "answer_text": "Product Owner",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-1",
+        "answer_text": "Software architect",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-2",
+        "answer_text": "Stakeholders",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-3",
+        "answer_text": "UX designer",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-30",
+    "question_text": "You want to prepare a document that explains how to use software once it is deployed, which type of documentation should you prefer to create?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "9-0",
+        "answer_text": "Software documentation",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-1",
+        "answer_text": "Requirements documentation",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-2",
+        "answer_text": "Technical documentation",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-3",
+        "answer_text": "User documentation",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-31",
+    "question_text": "Your company is looking to hire a new software engineer. During the interview process, you ask candidates to define software engineering. Which of the following is the most accurate description?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "Any task involved in software development",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "The application of structured principles to arrange the components of a software system",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "The complete collection of activities involved in software development",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "The use of scientific methods to design and build software",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-32",
+    "question_text": "Tanya wants to reduce project risks and ensure that her project development process is structured and efficient. Which of the following software development lifecycle (SDLC) benefits does Tanya have in this scenario?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "Encourages ad-hoc approaches for flexibility in project execution.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "Forces strictly on defining the responsibilities of all team members.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "Focuses on creating software-related documentation.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "Helps development teams work systematically, improving efficiency and lowering risks.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-33",
+    "question_text": "A financial institution has launched a new online banking system. After a few months, customers report minor issues with the transaction history not displaying correctly on some devices. What is a key activity performed during the maintenance phase of the SDLC to address such issues?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "Correcting minor transaction display errors",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "Outlining new feature requirements",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "Running extensive pre-launch system tests",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "Developing and testing the system from scratch",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-34",
+    "question_text": "A healthcare startup is finalizing its new software. They want to ensure that the program meets user requirements and is bug-free before the general launch. What should be the focus of the testing team during their testing phase?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Release alpha version for internal user testing.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Verify software matches requirements.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "Write user documentation for their users.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Develop a design document for the system.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-35",
+    "question_text": "A project manager is collecting input from the stakeholders about the new inventory system requirements. Which document should they develop to properly capture the system’s capabilities and constraints?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "Software requirements specification (SRS) document",
+        "is_correct": true
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "Interface control document (ICD)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "System requirements specifications (SysRS) document",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "User requirements specification (URS) document",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-36",
+    "question_text": "An organization is planning its software development approach with a strict step-by-step development process in which one phase must be completed before starting a new phase. Which software development lifecycle (SDLC) model does this scenario describe?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "5-0",
+        "answer_text": "Verification",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-1",
+        "answer_text": "Agile",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-2",
+        "answer_text": "Waterfall",
+        "is_correct": true
+      },
+      {
+        "answer_id": "5-3",
+        "answer_text": "V-shape",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-37",
+    "question_text": "The development team of an innovative online education platform is conducting comprehensive system tests. What primary aspect does functional testing address?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "6-0",
+        "answer_text": "Verifying the impact of recent modifications on existing system capabilities.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-1",
+        "answer_text": "Measuring system infrastructure and resource allocation capabilities.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-2",
+        "answer_text": "Evaluating system robustness through technical performance metrics.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-3",
+        "answer_text": "Ensuring the application meets core user interaction and accessibility standards.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-38",
+    "question_text": "As a software developer, you want to write clear, efficient, and easy-to-maintain code by following certain best practices. Which software development lifecycle phase supports this phase?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "7-0",
+        "answer_text": "Code quality",
+        "is_correct": true
+      },
+      {
+        "answer_id": "7-1",
+        "answer_text": "Software documentation",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-2",
+        "answer_text": "Software design",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-3",
+        "answer_text": "Software testing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-39",
+    "question_text": "A product development team is discussing prioritizing features for their next release based on customer requirements. Which of the following roles makes decisions for feature priority?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "8-0",
+        "answer_text": "Product Owner",
+        "is_correct": true
+      },
+      {
+        "answer_id": "8-1",
+        "answer_text": "Software architect",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-2",
+        "answer_text": "UX designer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-3",
+        "answer_text": "Stakeholder",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-40",
+    "question_text": "You want to prepare a document that explains how to use software once it is deployed, which type of documentation should you prefer to create?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "9-0",
+        "answer_text": "Requirements documentation",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-1",
+        "answer_text": "User documentation",
+        "is_correct": true
+      },
+      {
+        "answer_id": "9-2",
+        "answer_text": "Software documentation",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-3",
+        "answer_text": "Technical documentation",
+        "is_correct": false
+      }
+    ]
+  }
+]

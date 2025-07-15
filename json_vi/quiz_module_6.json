@@ -1,0 +1,1001 @@
+[
+  {
+    "question_id": "q-152",
+    "question_text": "Công cụ nào sau đây là một công cụ lưu trữ mã?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "HTML",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "Git",
+        "is_correct": true
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "Code Editor",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "IDE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-153",
+    "question_text": "Công nghệ nào sau đây bổ sung thêm nhiều kiểu và chức năng cho CSS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "LESS",
+        "is_correct": true
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "HTML",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "Java",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "MORE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-154",
+    "question_text": "Phát biểu nào sau đây là đúng về lập trình cặp?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "Lập trình cặp là một loại phát triển linh hoạt trong đó hai nhà phát triển lập kế hoạch và thảo luận về ý tưởng của họ khi họ tạo ra một giải pháp.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "Hầu hết các nhà phát triển đều thấy lập trình cặp là một việc sử dụng thời gian không hiệu quả.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "Lập trình cặp yêu cầu hai nhà phát triển phải ở cùng một địa điểm thực tế.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "Lập trình cặp luôn bao gồm một nhà phát triển nhập mã trong khi người kia đang xem xét mã khi nó được viết.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-155",
+    "question_text": "Hệ thống kiểm soát phiên bản giúp bạn theo dõi những gì sau đây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Luồng chương trình.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Lỗi trong mã.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "Ai đã thay đổi mã.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Báo cáo lỗi.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-156",
+    "question_text": "Loại kỹ sư phần mềm nào phát triển phần mềm mà người dùng tương tác?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "Nhà phát triển hệ thống",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "Kỹ sư mạng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "Kỹ sư back-end",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "Kỹ sư front-end",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-157",
+    "question_text": "Ví dụ nào sau đây là một kỹ năng cứng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "5-0",
+        "answer_text": "Điện toán đám mây",
+        "is_correct": true
+      },
+      {
+        "answer_id": "5-1",
+        "answer_text": "Giao tiếp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-2",
+        "answer_text": "Khả năng thích ứng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-3",
+        "answer_text": "Giải quyết vấn đề",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-158",
+    "question_text": "Lý do nào sau đây cho nhu cầu cao về kỹ sư phần mềm?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "6-0",
+        "answer_text": "Hầu hết các tổ chức đều cần các ứng dụng phần mềm và trang web.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "6-1",
+        "answer_text": "Thiếu người quan tâm đến lĩnh vực này.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-2",
+        "answer_text": "Rất nhiều kỹ sư phần mềm đang rời bỏ ngành.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-3",
+        "answer_text": "Nhiều kỹ sư phần mềm đang nghỉ hưu.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-159",
+    "question_text": "Một kỹ sư phần mềm cấp cao thường:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "7-0",
+        "answer_text": "Xác định nhu cầu tuyển dụng cho một công ty.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-1",
+        "answer_text": "Hướng dẫn các kỹ sư phần mềm khác.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "7-2",
+        "answer_text": "Giám sát các yêu cầu đối với các công nghệ của công ty.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-3",
+        "answer_text": "Chịu trách nhiệm về kiến trúc và thiết kế tổng thể của một sản phẩm.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-160",
+    "question_text": "Lợi thế nào sau đây của việc sử dụng vòng đời phát triển phần mềm (SDLC)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "8-0",
+        "answer_text": "Tăng rủi ro",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-1",
+        "answer_text": "Các thành viên trong nhóm chia sẻ cùng vai trò và trách nhiệm",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-2",
+        "answer_text": "Giải quyết vấn đề trong giai đoạn viết mã",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-3",
+        "answer_text": "Đáp ứng các yêu cầu thay đổi",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-161",
+    "question_text": "Quy trình phát triển phần mềm nào xác minh rằng phần mềm khớp với các yêu cầu đã thiết lập và không có lỗi?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "9-0",
+        "answer_text": "Gỡ lỗi",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-1",
+        "answer_text": "Kiểm thử",
+        "is_correct": true
+      },
+      {
+        "answer_id": "9-2",
+        "answer_text": "Viết mã",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-3",
+        "answer_text": "Thiết kế",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-162",
+    "question_text": "Đặc tả nào sau đây chỉ định các yêu cầu về chính sách và quy định?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "10-0",
+        "answer_text": "Đặc tả yêu cầu người dùng (URS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "10-1",
+        "answer_text": "Đặc tả yêu cầu hệ thống (SysRS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "10-2",
+        "answer_text": "Đặc tả yêu cầu phần mềm (SRS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "10-3",
+        "answer_text": "Đặc tả yêu cầu ứng dụng (ARS)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-163",
+    "question_text": "Đặc điểm nào sau đây là một đặc điểm của một thành phần?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "13-0",
+        "answer_text": "Dư thừa",
+        "is_correct": false
+      },
+      {
+        "answer_id": "13-1",
+        "answer_text": "Có thể mở rộng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "13-2",
+        "answer_text": "Có thể sửa đổi",
+        "is_correct": false
+      },
+      {
+        "answer_id": "13-3",
+        "answer_text": "Cụ thể theo ngữ cảnh",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-164",
+    "question_text": "Loại kiến trúc nào là một mô hình tính toán trong đó một máy chủ lưu trữ, cung cấp và quản lý hầu hết các tài nguyên và dịch vụ được cung cấp cho một máy khách?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "14-0",
+        "answer_text": "3 tầng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "14-1",
+        "answer_text": "Ngang hàng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "14-2",
+        "answer_text": "2 tầng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "14-3",
+        "answer_text": "Microservices",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-165",
+    "question_text": "Ví dụ nào sau đây là một ví dụ về một ngôn ngữ lập trình thông dịch?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "16-0",
+        "answer_text": "Java",
+        "is_correct": false
+      },
+      {
+        "answer_id": "16-1",
+        "answer_text": "JavaScript",
+        "is_correct": true
+      },
+      {
+        "answer_id": "16-2",
+        "answer_text": "C",
+        "is_correct": false
+      },
+      {
+        "answer_id": "16-3",
+        "answer_text": "C++",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-166",
+    "question_text": "Từ viết tắt CRUD là viết tắt của bốn hoạt động cơ sở dữ liệu chính nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "17-0",
+        "answer_text": "Tạo, Đọc, Hoàn tác, Giữ lại",
+        "is_correct": false
+      },
+      {
+        "answer_id": "17-1",
+        "answer_text": "Tạo, Đọc, Cập nhật, Xóa",
+        "is_correct": true
+      },
+      {
+        "answer_id": "17-2",
+        "answer_text": "Sửa, Đọc, Cập nhật, Giữ lại",
+        "is_correct": false
+      },
+      {
+        "answer_id": "17-3",
+        "answer_text": "Sửa, Ngẫu nhiên hóa, Hoàn tác, Xóa",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-167",
+    "question_text": "Từ khóa “While” được sử dụng để thực hiện loại logic lập trình nào sau đây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "18-0",
+        "answer_text": "Vòng lặp",
+        "is_correct": true
+      },
+      {
+        "answer_id": "18-1",
+        "answer_text": "Nhánh",
+        "is_correct": false
+      },
+      {
+        "answer_id": "18-2",
+        "answer_text": "Nếu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "18-3",
+        "answer_text": "For",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-168",
+    "question_text": "Tên của một loại định danh đặc biệt mà bạn có thể sử dụng để tham chiếu đến nhiều phần tử chương trình là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "19-0",
+        "answer_text": "Hằng số",
+        "is_correct": false
+      },
+      {
+        "answer_id": "19-1",
+        "answer_text": "Định danh",
+        "is_correct": false
+      },
+      {
+        "answer_id": "19-2",
+        "answer_text": "Vùng chứa",
+        "is_correct": false
+      },
+      {
+        "answer_id": "19-3",
+        "answer_text": "Biến",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-169",
+    "question_text": "Emly muốn quản lý và lưu trữ mã trong khi sử dụng môi trường phát triển tích hợp (IDE) hỗ trợ tích hợp với các công cụ lưu trữ mã. Công cụ nào sau đây có thể giúp Emly với các yêu cầu của cô ấy?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "Cascading Style Sheet (CSS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "Git",
+        "is_correct": true
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "JavaScript",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "Hypertext Markup Language (HTML)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-170",
+    "question_text": "Rosy nên tận dụng công cụ nào để tăng cường các tính năng của Cascading Style Sheet (CSS) bằng cách thêm nhiều kiểu và chức năng hơn mà cũng tương thích ngược với CSS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "Linear style sheet (LESS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "Hypertext Markup Language (HTML)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "Syntactically awesome style sheets (SASS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "React.js",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-171",
+    "question_text": "Bạn đang khám phá các phương pháp thực hành linh hoạt và bắt đầu lập trình cặp với đồng nghiệp của mình để làm việc trên một mô-đun mới. Cả hai bạn ngồi lại với nhau và bắt đầu trao đổi phản hồi để làm việc trên mô-đun mới. Phát biểu nào sau đây mô tả đúng nhất về phương pháp này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "Lập trình cặp là một loại phát triển linh hoạt trong đó hai nhà phát triển lập kế hoạch và thảo luận về ý tưởng của họ khi họ tạo ra một giải pháp.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "Lập trình cặp yêu cầu hai nhà phát triển phải ở cùng một địa điểm thực tế.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "Hầu hết các nhà phát triển đều thấy lập trình cặp là một việc sử dụng thời gian không hiệu quả.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "Lập trình cặp luôn bao gồm một nhà phát triển nhập mã trong khi người kia đang xem xét mã khi nó được viết.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-172",
+    "question_text": "Nhóm bảo mật CNTT tại một tổ chức tài chính đang điều tra các sửa đổi mã trái phép tiềm ẩn trong một cuộc kiểm toán gần đây. Thông tin quan trọng nào mà hệ thống kiểm soát phiên bản có thể cung cấp để hỗ trợ cuộc điều tra của họ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Tác giả sửa đổi mã",
+        "is_correct": true
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Sơ đồ kiến trúc hệ thống hoàn chỉnh",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "Nhật ký hiệu suất ứng dụng đầy đủ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Báo cáo theo dõi lỗi chi tiết",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-173",
+    "question_text": "Một công ty tiếp thị kỹ thuật số muốn thiết kế và duy trì các bộ điều khiển mạng và hệ điều hành phức tạp quản lý lưu lượng dữ liệu trên các nền tảng. Họ nên thuê loại kỹ sư phần mềm nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "Nhà phát triển hệ thống",
+        "is_correct": true
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "Kỹ sư DevOps",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "Kỹ sư front-end",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "Kỹ sư back-end",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-174",
+    "question_text": "Priya nhận thấy một vấn đề về hiệu suất trong ứng dụng sau khi triển khai. Kỹ năng kỹ thuật nào sẽ giúp cô ấy giải quyết vấn đề này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "5-0",
+        "answer_text": "Điện toán đám mây",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-1",
+        "answer_text": "Giám sát và khắc phục sự cố",
+        "is_correct": true
+      },
+      {
+        "answer_id": "5-2",
+        "answer_text": "Giao tiếp và làm việc nhóm",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-3",
+        "answer_text": "Khả năng thích ứng và phản hồi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-175",
+    "question_text": "Một công ty đầu tư công nghệ đang phân tích bối cảnh lực lượng lao động công nghệ đang phát triển. Yếu tố cơ bản nào đang thúc đẩy nhu cầu ngày càng tăng đối với các kỹ sư phần mềm?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "6-0",
+        "answer_text": "Nhu cầu về các ứng dụng phần mềm và trang web",
+        "is_correct": true
+      },
+      {
+        "answer_id": "6-1",
+        "answer_text": "Số lượng sinh viên công nghệ giảm",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-2",
+        "answer_text": "Sự không hài lòng trong công việc lan rộng trong ngành",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-3",
+        "answer_text": "Sự nghỉ hưu hàng loạt của các kỹ sư hiện tại",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-176",
+    "question_text": "Sana gần đây đã được thăng chức thành một kỹ sư phần mềm cấp cao. Cô ấy muốn hiểu rõ hơn về cách cô ấy có thể giúp nhóm của mình ngoài việc viết mã. Nhiệm vụ nào sau đây phù hợp chủ yếu với Sana?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "7-0",
+        "answer_text": "Xác định nhu cầu tuyển dụng trong công ty",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-1",
+        "answer_text": "Cung cấp hướng dẫn và hỗ trợ cho các nhà phát triển cấp dưới",
+        "is_correct": true
+      },
+      {
+        "answer_id": "7-2",
+        "answer_text": "Quản lý các yêu cầu công nghệ của công ty",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-3",
+        "answer_text": "Chịu trách nhiệm về thiết kế và kiến trúc tổng thể của sản phẩm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-177",
+    "question_text": "Một nhóm phát triển đang xây dựng một ứng dụng mới. Để duy trì tổ chức và thích ứng với các yêu cầu thay đổi, họ tuân theo Vòng đời phát triển phần mềm (SDLC). Lợi thế chính nào sau đây của việc sử dụng Vòng đời phát triển phần mềm (SDLC)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "8-0",
+        "answer_text": "Nó cho phép các nhóm điều chỉnh các yêu cầu khi cần thiết.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "8-1",
+        "answer_text": "Nó làm tăng rủi ro trong phát triển phần mềm.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-2",
+        "answer_text": "Nó giúp các thành viên trong nhóm chia sẻ cùng vai trò và trách nhiệm.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-3",
+        "answer_text": "Nó giải quyết các vấn đề trong giai đoạn viết mã.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-178",
+    "question_text": "Quy trình phát triển phần mềm nào xác minh rằng mã có thể đọc được, có thể bảo trì và tuân theo các tiêu chuẩn nhất quán để giảm thiểu các khiếm khuyết?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "9-0",
+        "answer_text": "Viết mã vì chất lượng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "9-1",
+        "answer_text": "Yêu cầu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-2",
+        "answer_text": "Thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-3",
+        "answer_text": "Kiểm thử",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-179",
+    "question_text": "Trước khi bắt đầu một dự án mới, một người quản lý dự án tiến hành một cuộc họp để đảm bảo tất cả các phòng ban, bao gồm bán hàng, hỗ trợ khách hàng và CNTT, đều tham gia vào việc xác định phạm vi dự án. Tuyên bố này phục vụ cho bước thu thập yêu cầu nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "10-0",
+        "answer_text": "Phân tích yêu cầu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "10-1",
+        "answer_text": "Xác định yêu cầu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "10-2",
+        "answer_text": "Khơi gợi yêu cầu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "10-3",
+        "answer_text": "Ưu tiên yêu cầu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-180",
+    "question_text": "Phương pháp phát triển phần mềm nào sau đây dễ dàng xử lý các yêu cầu thay đổi và cho phép phản hồi được kết hợp thường xuyên vào giải pháp?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "11-0",
+        "answer_text": "Tuần tự",
+        "is_correct": false
+      },
+      {
+        "answer_id": "11-1",
+        "answer_text": "Mô hình chữ V",
+        "is_correct": false
+      },
+      {
+        "answer_id": "11-2",
+        "answer_text": "Thác nước",
+        "is_correct": false
+      },
+      {
+        "answer_id": "11-3",
+        "answer_text": "Linh hoạt",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-181",
+    "question_text": "Một kỹ sư phần mềm đang xác định các thuộc tính cho một đối tượng trong một ngôn ngữ lập trình hướng đối tượng. Các thuộc tính này lưu trữ thông tin liên quan đến đối tượng, chẳng hạn như màu sắc, kích thước hoặc tên của nó. Các thuộc tính này được gọi là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "12-0",
+        "answer_text": "Thuộc tính",
+        "is_correct": true
+      },
+      {
+        "answer_id": "12-1",
+        "answer_text": "Thể hiện",
+        "is_correct": false
+      },
+      {
+        "answer_id": "12-2",
+        "answer_text": "Bản thiết kế",
+        "is_correct": false
+      },
+      {
+        "answer_id": "12-3",
+        "answer_text": "Lớp",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-182",
+    "question_text": "Đặc điểm nào đảm bảo rằng một thành phần có thể được mở rộng với chức năng bổ sung mà không cần sửa đổi cấu trúc cốt lõi của nó?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "13-0",
+        "answer_text": "Có thể mở rộng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "13-1",
+        "answer_text": "Có thể sửa đổi",
+        "is_correct": false
+      },
+      {
+        "answer_id": "13-2",
+        "answer_text": "Có thể lặp lại",
+        "is_correct": false
+      },
+      {
+        "answer_id": "13-3",
+        "answer_text": "Cụ thể theo ngữ cảnh",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-183",
+    "question_text": "Kiểu kiến trúc nào phù hợp nhất với hệ thống ngân hàng, nơi hệ thống chia nhỏ các chức năng của nó thành các phân đoạn có thể triển khai độc lập khác nhau giao tiếp qua HTTP?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "14-0",
+        "answer_text": "Microservices",
+        "is_correct": true
+      },
+      {
+        "answer_id": "14-1",
+        "answer_text": "3 tầng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "14-2",
+        "answer_text": "2 tầng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "14-3",
+        "answer_text": "Ngang hàng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-184",
+    "question_text": "Nhóm của bạn được giao nhiệm vụ xác định các lỗi trong ứng dụng, đảm bảo các thành phần trong ứng dụng hoạt động như mong đợi trước khi tích hợp chúng vào thiết lập sản xuất thực tế. Bạn sẽ chủ yếu sử dụng môi trường nào trong kịch bản này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "15-0",
+        "answer_text": "Phát triển",
+        "is_correct": false
+      },
+      {
+        "answer_id": "15-1",
+        "answer_text": "QA",
+        "is_correct": true
+      },
+      {
+        "answer_id": "15-2",
+        "answer_text": "Dàn dựng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "15-3",
+        "answer_text": "Sản xuất",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-185",
+    "question_text": "Bạn sẽ tận dụng ngôn ngữ lập trình nào sau đây để cập nhật các mô-đun cốt lõi của một hệ thống nhúng yêu cầu chuyển đổi mã nguồn sang mã máy để thực thi nhanh hơn?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "16-0",
+        "answer_text": "C++",
+        "is_correct": false
+      },
+      {
+        "answer_id": "16-1",
+        "answer_text": "C",
+        "is_correct": true
+      },
+      {
+        "answer_id": "16-2",
+        "answer_text": "JavaScript",
+        "is_correct": false
+      },
+      {
+        "answer_id": "16-3",
+        "answer_text": "Java",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-186",
+    "question_text": "Các hoạt động cơ sở dữ liệu cơ bản nào được đại diện bởi từ viết tắt CRUD?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "17-0",
+        "answer_text": "Sửa, Đọc, Cập nhật, Giữ lại",
+        "is_correct": false
+      },
+      {
+        "answer_id": "17-1",
+        "answer_text": "Tạo, Đọc, Hoàn tác, Giữ lại",
+        "is_correct": false
+      },
+      {
+        "answer_id": "17-2",
+        "answer_text": "Sửa, Ngẫu nhiên hóa, Hoàn tác, Xóa",
+        "is_correct": false
+      },
+      {
+        "answer_id": "17-3",
+        "answer_text": "Tạo, Đọc, Cập nhật, Xóa",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-187",
+    "question_text": "Roman muốn theo dõi số bước một người dùng thực hiện hàng ngày, có thể thay đổi trong suốt cả ngày. Roman nên sử dụng gì để lưu trữ số bước trong ứng dụng của mình?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "18-0",
+        "answer_text": "Hằng số",
+        "is_correct": false
+      },
+      {
+        "answer_id": "18-1",
+        "answer_text": "Biến",
+        "is_correct": true
+      },
+      {
+        "answer_id": "18-2",
+        "answer_text": "Mảng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "18-3",
+        "answer_text": "Vectơ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-188",
+    "question_text": "Một nhà phát triển phần mềm muốn thiết kế một thành phần “Ô tô” trong ứng dụng của mình và muốn xác định các đặc điểm của nó, bao gồm màu sắc, tốc độ và các hành động, chẳng hạn như start() và stop(). Bạn sẽ sử dụng khái niệm lập trình nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "19-0",
+        "answer_text": "Đối tượng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "19-1",
+        "answer_text": "Hàm",
+        "is_correct": false
+      },
+      {
+        "answer_id": "19-2",
+        "answer_text": "Biến",
+        "is_correct": false
+      },
+      {
+        "answer_id": "19-3",
+        "answer_text": "Vòng lặp",
+        "is_correct": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "question_id": "q-91",
+    "question_text": "Which one of the following is an example of a compiled programming language?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "JavaScript",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "Python",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "Java",
+        "is_correct": true
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "HTML",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-92",
+    "question_text": "True or false? Compiled programming languages are versatile and can be used across platforms as long as there is the correct interpreter.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "True",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "False",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-93",
+    "question_text": "True or false? A high-level programming language uses the common English language to make its code more understandable and to increase the speed of coding and debugging programs.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "True",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "False",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-94",
+    "question_text": "Which of the following statements about a flowchart is correct?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "A flowchart is a pictorial representation of an algorithm, showing the steps of the algorithm as boxes of various shapes and colors connected by arrows.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "A flowchart helps explain exactly what each line of a program should do.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "A flowchart is more efficient than using pseudocode for large programming projects.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "A flowchart is a basic, high-level description of an algorithm.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-95",
+    "question_text": "Which one of the following statements about the SQL language is true?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "It is used for querying non-relational data.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "It is used to create, read, update, and delete data in a database.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "It is an assembly language.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "It is written in binary (0s and 1s).",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-96",
+    "question_text": "Which of the following is a piece of structured, stand-alone, and reusable code that will perform a single specific action?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "A container",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "A function",
+        "is_correct": true
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "A vector",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "An array",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-97",
+    "question_text": "Which of the following words is used for the data stored in an object?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "Property",
+        "is_correct": true
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "Method",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "Behavior",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "Function",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-98",
+    "question_text": "Which of the following identifiers contains a single data item that can change value during the execution of the program?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "Vector",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "Array",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "Constant",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "Variable",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-99",
+    "question_text": "Which of the following is a type of programming logic?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Looping",
+        "is_correct": true
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Hopping",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "Deciding",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Moving",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-100",
+    "question_text": "A Boolean variable can have which of the following values?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "0, -1",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "0, 1",
+        "is_correct": true
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "1, 2",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "0, 1, 2",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-101",
+    "question_text": "Which of the following is the generic term for referencing a program component such as a stored value, method, interface, or class by a custom-named label?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "Identifier",
+        "is_correct": true
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "Constant",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "Container",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "Variable",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-102",
+    "question_text": "Which one of the following applies to interpreted programming languages?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "A smaller program, normally scripted code, that must be created and repeated every time the code is run",
+        "is_correct": true
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "Better for programs installed on the computer or device",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "More difficult to write in, but creates faster applications",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "Available to users who have the same operating system or a device that understands the same language",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-103",
+    "question_text": "Which one of the following applies to a compiled programming language compared to an interpreted language?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "Easier to learn and use, but requires an interpreter that can translate the source code into machine code",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "Better for websites and smaller processes that need to be repeated",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "Takes longer to write the code, but it runs faster",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "Creates a smaller program, normally using scripted code",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-104",
+    "question_text": "Which one of the following is an example of a low-level programming language?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Pascal",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Python",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "ARM",
+        "is_correct": true
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "SQL",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-105",
+    "question_text": "Which of the following is a type of programming logic with only two values, \"true\" or \"false\", and is used in both branching and looping programming logic?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "“if-then-else” statement",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "“And-do-while” loop",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "Boolean expression",
+        "is_correct": true
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "Branching statements",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-106",
+    "question_text": "What are the three key standpoints for organizing code?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "5-0",
+        "answer_text": "Readability, scalability, and accessibility",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-1",
+        "answer_text": "Maintainability, accessibility, and scalability",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-2",
+        "answer_text": "Readability, maintainability, and scalability",
+        "is_correct": true
+      },
+      {
+        "answer_id": "5-3",
+        "answer_text": "Readability, maintainability, and accessibility",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-107",
+    "question_text": "Which of the following is also often referred to as a scripting language?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "6-0",
+        "answer_text": "An assembly programming language",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-1",
+        "answer_text": "A compiled programming language",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-2",
+        "answer_text": "A query language",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-3",
+        "answer_text": "An interpreted programming language",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-108",
+    "question_text": "Which of the following is a type of looping programming logic?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "7-0",
+        "answer_text": "if",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-1",
+        "answer_text": "while",
+        "is_correct": true
+      },
+      {
+        "answer_id": "7-2",
+        "answer_text": "switch",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-3",
+        "answer_text": "goto",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-109",
+    "question_text": "Which of the following is the best type of identifier for a data item whose value does not change?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "8-0",
+        "answer_text": "Constant",
+        "is_correct": true
+      },
+      {
+        "answer_id": "8-1",
+        "answer_text": "Array",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-2",
+        "answer_text": "Variable",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-3",
+        "answer_text": "Vector",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-110",
+    "question_text": "Which of the following is a software methodology that focuses on objects rather than functions?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "9-0",
+        "answer_text": "SDLC",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-1",
+        "answer_text": "Extreme programming",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-2",
+        "answer_text": "Modular programming",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-3",
+        "answer_text": "OOP",
+        "is_correct": true
+      }
+    ]
+  }
+]

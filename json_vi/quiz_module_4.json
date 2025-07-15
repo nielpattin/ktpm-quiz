@@ -1,0 +1,532 @@
+[
+  {
+    "question_id": "q-111",
+    "question_text": "Điều nào sau đây mô tả đúng nhất về kiến trúc phần mềm?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "Nó đóng vai trò như một bản thiết kế cho các nhà phát triển.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "Nó ghi lại các chi tiết triển khai.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "Nó chỉ dành cho các nhà phát triển.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "Việc lựa chọn công nghệ stack thúc đẩy kiến trúc phần mềm.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-112",
+    "question_text": "Điều nào sau đây nên được bao gồm trong tài liệu thiết kế phần mềm (SDD)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "Mã",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "Các ràng buộc và phụ thuộc",
+        "is_correct": true
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "Các định nghĩa đối tượng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "Các trường hợp kiểm thử",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-113",
+    "question_text": "Các thành phần trong một thiết kế có cấu trúc tốt nên được ___________________.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "liên kết lỏng lẻo",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "liên kết chặt chẽ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "ràng buộc chặt chẽ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "kết dính lỏng lẻo",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-114",
+    "question_text": "Điều nào sau đây là một lợi thế của việc sử dụng sơ đồ UML khi thiết kế kiến trúc phần mềm?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Chúng giúp lập kế hoạch các cấu trúc và hành vi trước khi viết mã.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Chúng giúp tạo điều kiện giao tiếp giữa các thành viên trong nhóm.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "Chúng giúp các nhà phát triển điều hướng mã nguồn.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Tất cả những điều trên",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-115",
+    "question_text": "Bản thiết kế của một đối tượng được gọi là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "Một phương thức",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "Một lớp",
+        "is_correct": true
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "Một thuộc tính",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "Một thể hiện",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-116",
+    "question_text": "Điều nào sau đây là một đặc điểm của một hệ thống phân tán?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "Nó chứa nhiều dịch vụ phối hợp các tương tác bằng một giao thức truyền thông như HTTP.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "Nó tập trung vào việc phân rã một thiết kế thành các thành phần logic.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "Nó là một đơn vị riêng lẻ của chức năng được đóng gói.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "Nó là một giao diện cho một cơ sở dữ liệu.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-117",
+    "question_text": "Thuật ngữ nào được mô tả đúng nhất bởi câu nói, “bao hàm khả năng thêm hành vi vào một thành phần mà không thay đổi các thành phần khác?”",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "Tính mở rộng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "Độc lập",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "Đóng gói",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "Có thể tái sử dụng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-118",
+    "question_text": "Đúng hay sai? Kiến trúc của một ứng dụng phần mềm có thể được thiết kế vừa là peer-to-peer vừa là event-driven.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-119",
+    "question_text": "Điều nào sau đây mô tả đúng nhất về một môi trường staging?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Nó sao chép môi trường production, nhưng không dành cho người dùng thông thường.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Nó dành cho nhóm QA để kiểm tra các thành phần riêng lẻ của ứng dụng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "Nó dành cho các nhà phát triển sử dụng trong khi họ đang tích cực viết mã ứng dụng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Nó dành cho người dùng thông thường.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-120",
+    "question_text": "Môi trường production có tính đến điều gì mà các môi trường tiền production không có?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "Quyền",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "Tải",
+        "is_correct": true
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "Yêu cầu chức năng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "Mã có lỗi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-121",
+    "question_text": "Điều nào sau đây mô tả đúng nhất về kiến trúc phần mềm?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "0-0",
+        "answer_text": "Việc lựa chọn công nghệ stack thúc đẩy kiến trúc phần mềm.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-1",
+        "answer_text": "Nó đại diện cho các quyết định thiết kế sớm nhất.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "0-2",
+        "answer_text": "Nó ghi lại các chi tiết triển khai.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "0-3",
+        "answer_text": "Nó mô tả cách ứng dụng nên được viết mã.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-122",
+    "question_text": "Điều nào sau đây là các tạo phẩm (artifacts) kết quả từ việc thiết kế kiến trúc phần mềm?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "Hướng dẫn sử dụng của quản trị viên",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "Đặc tả yêu cầu phần mềm (SRS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "Các trường hợp kiểm thử",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "Sơ đồ UML",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-123",
+    "question_text": "Các thành phần trong một thiết kế có cấu trúc tốt nên được ___________________.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "ràng buộc lỏng lẻo",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "kết dính lỏng lẻo",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "liên kết lỏng lẻo",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "liên kết chặt chẽ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-124",
+    "question_text": "Điều nào sau đây là một lợi thế của việc sử dụng sơ đồ UML khi thiết kế kiến trúc phần mềm?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Chúng giải thích những phương thức nào nên được bao gồm khi viết mã một đối tượng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Tất cả chúng đều sử dụng JavaScript.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "Chúng mô tả những tham số nào nên được truyền khi khởi tạo một đối tượng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Chúng phục vụ để giúp các thành viên mới trong nhóm nhanh chóng bắt kịp.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-125",
+    "question_text": "Điều nào sau đây mô tả đúng nhất về đóng gói?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "Thiết kế một thành phần để nó hoạt động trong các môi trường khác nhau.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "Gói dữ liệu và phương thức để ẩn một trạng thái bên trong, do đó việc triển khai cụ thể của một thành phần không bị lộ ra ngoài.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "Thiết kế của một thành phần để nó không có sự phụ thuộc vào các thành phần khác.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "Một thành phần nên dễ dàng được thay thế bằng một thành phần khác.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-126",
+    "question_text": "Điều nào sau đây mô tả đúng nhất về một dịch vụ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "5-0",
+        "answer_text": "Nó là một loại đối tượng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-1",
+        "answer_text": "Một đơn vị chức năng tập trung vào một giải pháp cho một nhu cầu kinh doanh, được triển khai độc lập và được nhiều hệ thống tái sử dụng.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "5-2",
+        "answer_text": "Tập trung vào việc phân rã một thiết kế thành các thành phần logic.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-3",
+        "answer_text": "Một dịch vụ định nghĩa, soạn và triển khai các thành phần độc lập được liên kết lỏng lẻo để chúng hoạt động cùng nhau để tạo ra một ứng dụng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-127",
+    "question_text": "Phát biểu nào là đúng về kiến trúc 2 tầng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "6-0",
+        "answer_text": "Kiến trúc 2 tầng bao gồm một mạng lưới phi tập trung của các nút vừa là máy khách vừa là máy chủ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-1",
+        "answer_text": "Kiến trúc 2 tầng bao gồm các nhà sản xuất và người tiêu dùng các sự kiện.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-2",
+        "answer_text": "Giao diện nằm trên các máy khách và gửi yêu cầu đến một máy chủ để lấy dữ liệu hoặc dịch vụ.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "6-3",
+        "answer_text": "Hai tầng khác nhau là tầng ứng dụng và tầng dữ liệu.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-128",
+    "question_text": "Các mẫu kiến trúc nào sau đây loại trừ lẫn nhau?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "7-0",
+        "answer_text": "Microservices và event-driven",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-1",
+        "answer_text": "Three-tier và microservices",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-2",
+        "answer_text": "Peer-to-peer và event-driven",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-3",
+        "answer_text": "Peer-to-peer và two-tier",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-129",
+    "question_text": "Môi trường nào sau đây dành cho các nhà phát triển sử dụng trong khi họ đang tích cực viết mã ứng dụng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "8-0",
+        "answer_text": "QA",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-1",
+        "answer_text": "Production",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-2",
+        "answer_text": "Development",
+        "is_correct": true
+      },
+      {
+        "answer_id": "8-3",
+        "answer_text": "Staging",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-130",
+    "question_text": "Thiết bị bảo mật nào sau đây giám sát lưu lượng truy cập giữa mạng nội bộ và mạng bên ngoài?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "9-0",
+        "answer_text": "Web server",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-1",
+        "answer_text": "Firewall",
+        "is_correct": true
+      },
+      {
+        "answer_id": "9-2",
+        "answer_text": "Router",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-3",
+        "answer_text": "Load balancer",
+        "is_correct": false
+      }
+    ]
+  }
+]
