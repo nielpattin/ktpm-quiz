@@ -1,7 +1,7 @@
 import express from 'express';
 import { existsSync, mkdirSync } from 'fs';
 import { join, extname } from 'path';
-import multer from 'multer';
+// import multer from 'multer';
 import Database from 'better-sqlite3';
 
 const PORT = 8080;
@@ -10,21 +10,21 @@ const dbDir = join(process.cwd(), 'db');
 if (!existsSync(dbDir)) mkdirSync(dbDir, { recursive: true });
 
 // Multer setup for image uploads
-const imagesDir = join(process.cwd(), 'images');
-if (!existsSync(imagesDir)) mkdirSync(imagesDir);
-const upload = multer({
-  storage: multer.diskStorage({
-    destination: (req, file, cb) => cb(null, imagesDir),
-    filename: (req, file, cb) => {
-      // Use a temporary filename; we'll rename after parsing fields
-      cb(null, 'temp_' + Date.now() + extname(file.originalname).toLowerCase());
-    }
-  }),
-  fileFilter: (req, file, cb) => {
-    const allowed = ['.png', '.jpg', '.jpeg', '.gif', '.webp'];
-    cb(null, allowed.includes(extname(file.originalname).toLowerCase()));
-  }
-});
+// const imagesDir = join(process.cwd(), 'images');
+// if (!existsSync(imagesDir)) mkdirSync(imagesDir);
+// const upload = multer({
+//   storage: multer.diskStorage({
+//     destination: (req, file, cb) => cb(null, imagesDir),
+//     filename: (req, file, cb) => {
+//       // Use a temporary filename; we'll rename after parsing fields
+//       cb(null, 'temp_' + Date.now() + extname(file.originalname).toLowerCase());
+//     }
+//   }),
+//   fileFilter: (req, file, cb) => {
+//     const allowed = ['.png', '.jpg', '.jpeg', '.gif', '.webp'];
+//     cb(null, allowed.includes(extname(file.originalname).toLowerCase()));
+//   }
+// });
 
 // API: search quiz
 // app.get('/api/search', (req, res) => {
@@ -99,10 +99,10 @@ const upload = multer({
 // });
 
 // Serve images statically
-app.use('/images', express.static(imagesDir, {
-  maxAge: '30d', // Cache images for 30 days
-  immutable: true // Mark as immutable for aggressive caching
-}));
+// app.use('/images', express.static(imagesDir, {
+//   maxAge: '30d', // Cache images for 30 days
+//   immutable: true // Mark as immutable for aggressive caching
+// }));
 
 // Serve static files (*.html, etc.)
 app.use(express.static(process.cwd(), { extensions: ['html'] }));
