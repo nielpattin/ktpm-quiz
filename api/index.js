@@ -120,7 +120,7 @@ app.get('/', (req, res) => {
 // API: get all quizzes for a module
 app.get('/api/module', (req, res) => {
   const id = req.query.id;
-  if (!id || !/^[1-8]$/.test(id)) {
+  if (!id || !/^[1-9]$/.test(id)) {
     return res.status(400).json({ error: 'Invalid or missing module id' });
   }
   const dbPath = join(dbDir, `quiz_module_${id}.db`);
