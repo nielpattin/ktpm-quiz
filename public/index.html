@@ -289,7 +289,7 @@
     let favorites = new Set(JSON.parse(localStorage.getItem('favoriteQuestions')) || []);
     let lastSelectedModule = '';
 
-    async function loadQuizForModule(moduleId, startAt = 'first') {
+    async function loadQuizForModule(moduleId, startAt = 0) {
       if (moduleId === 'all') {
         let allQuizzes = [];
         for (let i = 1; i <= 9; i++) {
@@ -342,8 +342,8 @@
         }
       }
       
-      if (startAt === 'last') {
-        current = quizData.length > 0 ? quizData.length - 1 : 0;
+      if (typeof startAt === 'number') {
+        current = Math.max(0, Math.min(startAt, quizData.length - 1));
       } else {
         current = 0;
       }
@@ -622,6 +622,8 @@
     document.addEventListener('keydown', handleKeyNavigation);
 
     document.getElementById('favorites-btn').addEventListener('click', () => {
+        localStorage.setItem('lastNonFavoriteModule', moduleSelect.value);
+        localStorage.setItem('lastNonFavoriteQuestionIndex', current);
         lastSelectedModule = moduleSelect.value;
         const allFavoritedQuizzes = [];
         for (let i = 1; i <= 9; i++) {
@@ -654,15 +656,21 @@
     });
 
     document.getElementById('show-all-btn').addEventListener('click', () => {
-        moduleSelect.value = lastSelectedModule;
-        loadQuizForModule(lastSelectedModule);
+        const lastNonFavoriteModule = localStorage.getItem('lastNonFavoriteModule') || lastSelectedModule;
+        const lastNonFavoriteQuestionIndex = parseInt(localStorage.getItem('lastNonFavoriteQuestionIndex'), 10) || 0;
+        moduleSelect.value = lastNonFavoriteModule;
+        loadQuizForModule(lastNonFavoriteModule).then(() => {
+            current = lastNonFavoriteQuestionIndex;
+            renderQuestion();
+            renderSidebar();
+        });
         document.getElementById('moduleSelect').disabled = false;
         document.querySelector('#moduleSelect option[value="all"]').disabled = false;
         document.getElementById('favorites-btn').style.display = 'inline-block';
         document.getElementById('show-all-btn').style.display = 'none';
         document.getElementById('favorites-label').style.display = 'none';
         document.getElementById('clear-favorites-btn').style.display = 'none';
-        if (lastSelectedModule === 'all') {
+        if (lastNonFavoriteModule === 'all') {
             document.getElementById('back-to-all-btn').style.display = 'none';
         }
     });
@@ -691,8 +699,7 @@
     // Initial Load
     if (lastViewedModule) {
         moduleSelect.value = lastViewedModule;
-        loadQuizForModule(lastViewedModule).then(() => {
-            current = lastViewedQuestionIndex;
+        loadQuizForModule(lastViewedModule, lastViewedQuestionIndex).then(() => {
             renderQuestion();
             renderSidebar();
         });
