@@ -12,7 +12,6 @@
       padding: 0;
       overflow: hidden;
       overscroll-behavior-y: none; /* Changed from contain */
-      touch-action: pan-x; /* Restrict vertical panning */
     }
     body {
       background: #1D1B2C;
@@ -76,7 +75,6 @@
         justify-content: flex-start;
         overflow-y: hidden; /* Changed from auto to hidden */
         padding: 20px 0;
-        touch-action: pan-x; /* Ensure swipe gestures are not intercepted */
     }
     .quiz-card {
       background: #29273F;
@@ -427,8 +425,20 @@
 
     hamburgerBtn.addEventListener('click', toggleSidebar);
 
-    // Prevent pull-to-refresh
+    document.body.addEventListener('click', function(e) {
+      if (sidebar.classList.contains('open') && !sidebar.contains(e.target) && !hamburgerBtn.contains(e.target)) {
+        closeSidebar();
+      }
+    });
+
+    // Prevent pull-to-refresh, but allow interaction with buttons
     document.addEventListener('touchstart', function(e) {
+      // Check if the touch target is an interactive element
+      const targetTagName = e.target.tagName;
+      if (targetTagName === 'BUTTON' || targetTagName === 'SELECT' || targetTagName === 'OPTION' || e.target.closest('.sidebar-btn') || e.target.closest('#hamburgerBtn')) {
+        return; // Allow default behavior for buttons and select elements
+      }
+
       if (e.touches[0].clientY < 50) { // Detect touch near top of screen
         e.preventDefault();
       }
@@ -441,6 +451,11 @@
 
     mainContent.addEventListener('touchmove', function(e) {
       if (!sidebar.classList.contains('open')) {
+        // Check if the touch target is an interactive element
+        const targetTagName = e.target.tagName;
+        if (targetTagName === 'BUTTON' || targetTagName === 'SELECT' || targetTagName === 'OPTION' || e.target.closest('.sidebar-btn') || e.target.closest('#hamburgerBtn')) {
+          return; // Allow default behavior for buttons and select elements
+        }
         e.preventDefault(); // Prevent browser scrolling/refresh during swipe
       }
     }, { passive: false });
