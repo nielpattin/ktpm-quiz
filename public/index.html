@@ -281,13 +281,21 @@
     const moduleQuizCache = new Map();
     let quizData = [];
     let current = 0;
-    let lastViewedModule = localStorage.getItem('lastViewedModule') || '';
-    let lastViewedQuestionIndex = parseInt(localStorage.getItem('lastViewedQuestionIndex'), 10) || 0;
     const moduleSelect = document.getElementById('moduleSelect');
     let selectedAnswers = [];
     let questionLocked = false;
     let favorites = new Set(JSON.parse(localStorage.getItem('favoriteQuestions')) || []);
-    let lastSelectedModule = '';
+
+    let appState = JSON.parse(localStorage.getItem('appState')) || {
+        currentView: 'all',
+        all: { module: '', questionIndex: 0 },
+        favorites: { questionIndex: 0 }
+    };
+
+    // Ensure appState has all necessary properties for backward compatibility
+    if (!appState.all) appState.all = { module: '', questionIndex: 0 };
+    if (!appState.favorites) appState.favorites = { questionIndex: 0 };
+    if (!appState.currentView) appState.currentView = 'all';
 
     async function loadQuizForModule(moduleId, startAt = 0) {
       if (moduleId === 'all') {
@@ -347,7 +355,8 @@
       } else {
         current = 0;
       }
-      localStorage.setItem('lastViewedModule', moduleId);
+      appState.all.module = moduleId;
+      localStorage.setItem('appState', JSON.stringify(appState));
 
       renderQuestion();
       renderSidebar();
@@ -359,7 +368,12 @@
       const checkBtn = document.getElementById('check-btn');
       checkBtn.style.display = 'none';
 
-      localStorage.setItem('lastViewedQuestionIndex', current);
+      if (appState.currentView === 'all') {
+          appState.all.questionIndex = current;
+      } else if (appState.currentView === 'favorites') {
+          appState.favorites.questionIndex = current;
+      }
+      localStorage.setItem('appState', JSON.stringify(appState));
 
       const questionTextEl = document.getElementById('questionText');
       const questionIndexEl = document.getElementById('questionIndex');
@@ -500,7 +514,7 @@
         if (!currentModuleId) return;
         const nextModuleId = (currentModuleId % 9) + 1;
         moduleSelect.value = nextModuleId;
-        loadQuizForModule(String(nextModuleId), 'first');
+        loadQuizForModule(String(nextModuleId), appState.all.questionIndex);
     }
 
     function goToPreviousModule() {
@@ -508,7 +522,7 @@
         if (!currentModuleId) return;
         const prevModuleId = ((currentModuleId - 2 + 9) % 9) + 1;
         moduleSelect.value = prevModuleId;
-        loadQuizForModule(String(prevModuleId), 'last');
+        loadQuizForModule(String(prevModuleId), appState.all.questionIndex);
     }
 
 
@@ -622,10 +636,11 @@
     document.addEventListener('keydown', handleKeyNavigation);
 
     document.getElementById('favorites-btn').addEventListener('click', () => {
-        localStorage.setItem('lastNonFavoriteModule', moduleSelect.value);
-        localStorage.setItem('lastNonFavoriteQuestionIndex', current);
-        localStorage.setItem('lastViewWasFavorites', 'true');
-        lastSelectedModule = moduleSelect.value;
+        appState.all.module = moduleSelect.value;
+        appState.all.questionIndex = current;
+        appState.currentView = 'favorites';
+        localStorage.setItem('appState', JSON.stringify(appState));
+
         const allFavoritedQuizzes = [];
         for (let i = 1; i <= 9; i++) {
             const moduleId = String(i);
@@ -636,7 +651,12 @@
             }
         }
         quizData = allFavoritedQuizzes;
-        current = 0;
+        current = appState.favorites.questionIndex;
+        if (current >= quizData.length && quizData.length > 0) {
+            current = quizData.length - 1;
+        } else if (quizData.length === 0) {
+            current = 0;
+        }
         renderQuestion();
         renderSidebar();
         document.getElementById('moduleSelect').value = '';
@@ -651,17 +671,18 @@
         } else {
             document.getElementById('clear-favorites-btn').disabled = false;
         }
-        if (lastSelectedModule === 'all') {
+        if (appState.all.module === 'all') {
             document.getElementById('back-to-all-btn').style.display = 'inline-block';
         }
     });
 
-    document.getElementById('show-all-btn').addEventListener('click', () => {
-        const lastNonFavoriteModule = localStorage.getItem('lastNonFavoriteModule') || lastSelectedModule;
-        const lastNonFavoriteQuestionIndex = parseInt(localStorage.getItem('lastNonFavoriteQuestionIndex'), 10) || 0;
-        moduleSelect.value = lastNonFavoriteModule;
-        loadQuizForModule(lastNonFavoriteModule).then(() => {
-            current = lastNonFavoriteQuestionIndex;
+        document.getElementById('show-all-btn').addEventListener('click', () => {
+        appState.favorites.questionIndex = current;
+        appState.currentView = 'all';
+        localStorage.setItem('appState', JSON.stringify(appState));
+
+        moduleSelect.value = appState.all.module;
+        loadQuizForModule(appState.all.module, appState.all.questionIndex).then(() => {
             renderQuestion();
             renderSidebar();
         });
@@ -671,8 +692,7 @@
         document.getElementById('show-all-btn').style.display = 'none';
         document.getElementById('favorites-label').style.display = 'none';
         document.getElementById('clear-favorites-btn').style.display = 'none';
-        localStorage.setItem('lastViewWasFavorites', 'false');
-        if (lastNonFavoriteModule === 'all') {
+        if (appState.all.module === 'all') {
             document.getElementById('back-to-all-btn').style.display = 'none';
         }
     });
@@ -699,7 +719,7 @@
     });
 
     // Initial Load
-    const lastViewWasFavorites = localStorage.getItem('lastViewWasFavorites') === 'true';
+    
 
     async function initialLoad() {
         // Ensure all modules are loaded into cache first
@@ -719,7 +739,7 @@
             }
         }
 
-        if (lastViewWasFavorites) {
+        if (appState.currentView === 'favorites') {
             const allFavoritedQuizzes = [];
             for (let i = 1; i <= 9; i++) {
                 const moduleId = String(i);
@@ -730,7 +750,12 @@
                 }
             }
             quizData = allFavoritedQuizzes;
-            current = parseInt(localStorage.getItem('lastViewedQuestionIndex'), 10) || 0;
+            current = appState.favorites.questionIndex;
+            if (current >= quizData.length && quizData.length > 0) {
+                current = quizData.length - 1;
+            } else if (quizData.length === 0) {
+                current = 0;
+            }
             renderQuestion();
             renderSidebar();
             document.getElementById('moduleSelect').value = '';
@@ -746,12 +771,12 @@
                 document.getElementById('clear-favorites-btn').disabled = false;
             }
             // If the last selected module was 'all', show the 'Back to All Modules' button
-            if (localStorage.getItem('lastNonFavoriteModule') === 'all') {
+            if (appState.all.module === 'all') {
                 document.getElementById('back-to-all-btn').style.display = 'inline-block';
             }
-        } else if (lastViewedModule) {
-            moduleSelect.value = lastViewedModule;
-            loadQuizForModule(lastViewedModule, lastViewedQuestionIndex).then(() => {
+        } else if (appState.all.module) {
+            moduleSelect.value = appState.all.module;
+            loadQuizForModule(appState.all.module, appState.all.questionIndex).then(() => {
                 renderQuestion();
                 renderSidebar();
             });
