@@ -11,13 +11,14 @@
       margin: 0;
       padding: 0;
       overflow: hidden;
+      overscroll-behavior-y: none; /* Changed from contain */
+      touch-action: pan-x; /* Restrict vertical panning */
     }
     body {
       background: #1D1B2C;
       color: #CECDE0;
       font-family: Arial, sans-serif;
       display: flex;
-      overscroll-behavior: contain;
     }
     .sidebar {
       width: 250px;
@@ -73,8 +74,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        overflow-y: auto;
+        overflow-y: hidden; /* Changed from auto to hidden */
         padding: 20px 0;
+        touch-action: pan-x; /* Ensure swipe gestures are not intercepted */
     }
     .quiz-card {
       background: #29273F;
@@ -89,6 +91,7 @@
       flex-direction: column;
       gap: 24px;
       flex-shrink: 0;
+      overflow: hidden; /* Add this */
     }
     .question-row {
       margin-top: 32px;
@@ -424,10 +427,23 @@
 
     hamburgerBtn.addEventListener('click', toggleSidebar);
 
+    // Prevent pull-to-refresh
+    document.addEventListener('touchstart', function(e) {
+      if (e.touches[0].clientY < 50) { // Detect touch near top of screen
+        e.preventDefault();
+      }
+    }, { passive: false });
+
     mainContent.addEventListener('touchstart', e => {
         if (sidebar.classList.contains('open')) return;
         touchStartY = e.changedTouches[0].screenY;
     }, { passive: true });
+
+    mainContent.addEventListener('touchmove', function(e) {
+      if (!sidebar.classList.contains('open')) {
+        e.preventDefault(); // Prevent browser scrolling/refresh during swipe
+      }
+    }, { passive: false });
 
     mainContent.addEventListener('touchend', e => {
         if (sidebar.classList.contains('open')) return;
