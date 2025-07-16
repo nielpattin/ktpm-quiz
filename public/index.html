@@ -624,6 +624,7 @@
     document.getElementById('favorites-btn').addEventListener('click', () => {
         localStorage.setItem('lastNonFavoriteModule', moduleSelect.value);
         localStorage.setItem('lastNonFavoriteQuestionIndex', current);
+        localStorage.setItem('lastViewWasFavorites', 'true');
         lastSelectedModule = moduleSelect.value;
         const allFavoritedQuizzes = [];
         for (let i = 1; i <= 9; i++) {
@@ -670,6 +671,7 @@
         document.getElementById('show-all-btn').style.display = 'none';
         document.getElementById('favorites-label').style.display = 'none';
         document.getElementById('clear-favorites-btn').style.display = 'none';
+        localStorage.setItem('lastViewWasFavorites', 'false');
         if (lastNonFavoriteModule === 'all') {
             document.getElementById('back-to-all-btn').style.display = 'none';
         }
@@ -697,15 +699,68 @@
     });
 
     // Initial Load
-    if (lastViewedModule) {
-        moduleSelect.value = lastViewedModule;
-        loadQuizForModule(lastViewedModule, lastViewedQuestionIndex).then(() => {
+    const lastViewWasFavorites = localStorage.getItem('lastViewWasFavorites') === 'true';
+
+    async function initialLoad() {
+        // Ensure all modules are loaded into cache first
+        for (let i = 1; i <= 9; i++) {
+            const moduleId = String(i);
+            if (!moduleQuizCache.has(moduleId)) {
+                try {
+                    const res = await fetch(`/api/module?id=${moduleId}`);
+                    const data = await res.json();
+                    if (data && Array.isArray(data.quizzes)) {
+                        const filtered = data.quizzes.filter(q => q.status !== "all_false");
+                        moduleQuizCache.set(moduleId, filtered);
+                    }
+                } catch (e) {
+                    console.error(`Failed to load module ${moduleId} for cache population`, e);
+                }
+            }
+        }
+
+        if (lastViewWasFavorites) {
+            const allFavoritedQuizzes = [];
+            for (let i = 1; i <= 9; i++) {
+                const moduleId = String(i);
+                if (moduleQuizCache.has(moduleId)) {
+                    const quizzes = moduleQuizCache.get(moduleId);
+                    const favorited = quizzes.filter(q => favorites.has(q.question_id));
+                    allFavoritedQuizzes.push(...favorited);
+                }
+            }
+            quizData = allFavoritedQuizzes;
+            current = parseInt(localStorage.getItem('lastViewedQuestionIndex'), 10) || 0;
             renderQuestion();
             renderSidebar();
-        });
-    } else {
-        renderQuestion();
+            document.getElementById('moduleSelect').value = '';
+            document.getElementById('moduleSelect').disabled = true;
+            document.querySelector('#moduleSelect option[value="all"]').disabled = true;
+            document.getElementById('favorites-btn').style.display = 'none';
+            document.getElementById('show-all-btn').style.display = 'inline-block';
+            document.getElementById('favorites-label').style.display = 'inline-block';
+            document.getElementById('clear-favorites-btn').style.display = 'inline-block';
+            if (favorites.size === 0) {
+                document.getElementById('clear-favorites-btn').disabled = true;
+            } else {
+                document.getElementById('clear-favorites-btn').disabled = false;
+            }
+            // If the last selected module was 'all', show the 'Back to All Modules' button
+            if (localStorage.getItem('lastNonFavoriteModule') === 'all') {
+                document.getElementById('back-to-all-btn').style.display = 'inline-block';
+            }
+        } else if (lastViewedModule) {
+            moduleSelect.value = lastViewedModule;
+            loadQuizForModule(lastViewedModule, lastViewedQuestionIndex).then(() => {
+                renderQuestion();
+                renderSidebar();
+            });
+        } else {
+            renderQuestion();
+        }
     }
+
+    initialLoad();
 
   </script>
 </body>
