@@ -382,6 +382,15 @@
         };
         sidebar.appendChild(btn);
       });
+
+      const activeButton = sidebar.querySelector('.sidebar-btn.active');
+      if (activeButton) {
+        activeButton.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center',
+          inline: 'nearest'
+        });
+      }
     }
     
     function goToNextModule() {
