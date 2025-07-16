@@ -73,8 +73,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        overflow-y: hidden;
+        overflow-y: auto;
         padding: 20px 0;
+        max-height: 100%;
     }
     .quiz-card {
       background: #29273F;
@@ -97,6 +98,9 @@
       font-weight: 400;
       color: #CECDE0;
       min-height: 60px;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      max-width: 100%;
     }
     .answers-row {
       display: flex;
@@ -113,6 +117,9 @@
           cursor: pointer;
           transition: border 0.2s, background 0.2s;
           position: relative;
+          word-wrap: break-word;
+          overflow-wrap: break-word;
+          max-width: 100%;
     }
     .answer.correct {
           border-color: #01DF70 !important;
@@ -226,6 +233,17 @@
         right: 16px;
         top: 16px;
       }
+      .question-row {
+        font-size: 1.2rem;
+      }
+      .answer {
+        font-size: 1rem;
+      }
+    }
+  .quiz-card * {
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      max-width: 100%;
     }
   </style>
 </head>
@@ -270,10 +288,10 @@
         <button id="check-btn">Check</button>
       </div>
       <div class="desktop-tip">
-        Press &#8593; or &#8595; to navigate
+        Press &#8592; or &#8594; to navigate
       </div>
       <div class="mobile-tip">
-        Swipe up or down to navigate
+        Swipe left or right to navigate
       </div>
     </div>
   </div>
@@ -539,8 +557,8 @@
     const hamburgerBtn = document.getElementById('hamburgerBtn');
     const sidebar = document.getElementById('sidebar');
     const mainContent = document.getElementById('main-content');
-    let touchStartY = 0;
-    let touchEndY = 0;
+    let touchStartX = 0;
+    let touchEndX = 0;
 
     function toggleSidebar() {
       sidebar.classList.toggle('open');
@@ -573,7 +591,7 @@
 
     mainContent.addEventListener('touchstart', e => {
         if (sidebar.classList.contains('open')) return;
-        touchStartY = e.changedTouches[0].screenY;
+        touchStartX = e.changedTouches[0].screenX;
     }, { passive: true });
 
     mainContent.addEventListener('touchmove', function(e) {
@@ -582,18 +600,19 @@
         if (targetTagName === 'BUTTON' || targetTagName === 'SELECT' || targetTagName === 'OPTION' || e.target.closest('.sidebar-btn') || e.target.closest('#hamburgerBtn')) {
           return;
         }
-        e.preventDefault();
+        // Allow vertical scrolling within main content
+        // e.preventDefault(); // Removed to allow vertical scrolling
       }
     }, { passive: false });
 
     mainContent.addEventListener('touchend', e => {
         if (sidebar.classList.contains('open')) return;
-        touchEndY = e.changedTouches[0].screenY;
+        touchEndX = e.changedTouches[0].screenX;
         handleSwipe();
     });
 
     function handleSwipe() {
-      if (touchEndY < touchStartY - 50) {
+      if (touchEndX < touchStartX - 50) { // Swiped left
         if (current < quizData.length - 1) {
           current++;
           renderQuestion();
@@ -601,7 +620,7 @@
         } else {
           goToNextModule();
         }
-      } else if (touchEndY > touchStartY + 50) {
+      } else if (touchEndX > touchStartX + 50) { // Swiped right
         if (current > 0) {
           current--;
           renderQuestion();
@@ -615,7 +634,7 @@
     function handleKeyNavigation(e) {
         if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'SELECT') return;
 
-        if (e.key === 'ArrowDown' || e.key === 's' || e.key === 'S') {
+        if (e.key === 'ArrowRight' || e.key === 'd' || e.key === 'D') {
             if (current < quizData.length - 1) {
               current++;
               renderQuestion();
@@ -623,7 +642,7 @@
             } else {
               goToNextModule();
             }
-        } else if (e.key === 'ArrowUp' || e.key === 'w' || e.key === 'W') {
+        } else if (e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'A') {
             if (current > 0) {
               current--;
               renderQuestion();
