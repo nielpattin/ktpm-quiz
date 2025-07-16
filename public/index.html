@@ -162,6 +162,11 @@
         cursor: pointer;
     }
 
+    #favorites-btn.active {
+        background-color: #C294FF;
+        color: #1D1B2C;
+    }
+
     @media (min-width: 901px) {
         .desktop-tip {
             display: block;
@@ -229,11 +234,21 @@
         <option value="7">7 - Module 1</option>
         <option value="8">8 - Module 2,3,4,5,6</option>
         <option value="9">9 - MUST LEARN</option>
+        <option value="all">All Modules</option>
       </select>
+      <button id="favorites-btn" style="margin-left: 12px; font-size: 1.05rem; padding: 4px 10px; border-radius: 6px;">Favorites</button>
+      <button id="show-all-btn" style="margin-left: 12px; font-size: 1.05rem; padding: 4px 10px; border-radius: 6px; display: none;">Show All</button>
+      <span id="favorites-label" style="margin-left: 12px; font-size: 1.1rem; display: none;">Viewing Favorites</span>
+      <button id="back-to-all-btn" style="margin-left: 12px; font-size: 1.05rem; padding: 4px 10px; border-radius: 6px; display: none;">Back to All Modules</button>
+      <button id="clear-favorites-btn" style="margin-left: 12px; font-size: 1.05rem; padding: 4px 10px; border-radius: 6px; display: none;">Clear Favorites</button>
     </div>
     <div id="main-content">
       <div class="quiz-card" id="quizCard">
         <span id="questionIndex"></span>
+        <div id="favorite-btn" style="position: absolute; top: 20px; right: 20px; cursor: pointer;">
+            <svg class="star-icon" id="star-outline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            <svg class="star-icon" id="star-filled" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+        </div>
         <div class="question-row" id="questionText"></div>
         <div class="answers-row" id="answersList"></div>
         <button id="check-btn">Check</button>
@@ -250,11 +265,42 @@
     const moduleQuizCache = new Map();
     let quizData = [];
     let current = 0;
+    let lastViewedModule = localStorage.getItem('lastViewedModule') || '';
+    let lastViewedQuestionIndex = parseInt(localStorage.getItem('lastViewedQuestionIndex'), 10) || 0;
     const moduleSelect = document.getElementById('moduleSelect');
     let selectedAnswers = [];
     let questionLocked = false;
+    let favorites = new Set(JSON.parse(localStorage.getItem('favoriteQuestions')) || []);
+    let lastSelectedModule = '';
 
     async function loadQuizForModule(moduleId, startAt = 'first') {
+      if (moduleId === 'all') {
+        let allQuizzes = [];
+        for (let i = 1; i <= 9; i++) {
+            const id = String(i);
+            if (moduleQuizCache.has(id)) {
+                allQuizzes.push(...moduleQuizCache.get(id));
+            } else {
+                try {
+                    const res = await fetch(`/api/module?id=${id}`);
+                    const data = await res.json();
+                    if (data && Array.isArray(data.quizzes)) {
+                        const filtered = data.quizzes.filter(q => q.status !== "all_false");
+                        moduleQuizCache.set(id, filtered);
+                        allQuizzes.push(...filtered);
+                    }
+                } catch (e) {
+                    console.error(`Failed to load module ${id}`, e);
+                }
+            }
+        }
+        quizData = allQuizzes;
+        current = 0;
+        renderQuestion();
+        renderSidebar();
+        return;
+      }
+
       if (!moduleId) {
         quizData = [];
         renderQuestion();
@@ -285,6 +331,7 @@
       } else {
         current = 0;
       }
+      localStorage.setItem('lastViewedModule', moduleId);
 
       renderQuestion();
       renderSidebar();
@@ -296,18 +343,25 @@
       const checkBtn = document.getElementById('check-btn');
       checkBtn.style.display = 'none';
 
+      localStorage.setItem('lastViewedQuestionIndex', current);
+
       const questionTextEl = document.getElementById('questionText');
       const questionIndexEl = document.getElementById('questionIndex');
       const answersListEl = document.getElementById('answersList');
 
       if (!quizData.length) {
         questionIndexEl.textContent = '';
-        questionTextEl.textContent = 'Please select a module to begin.';
+        if (document.getElementById('favorites-label').style.display === 'inline-block') {
+            questionTextEl.textContent = 'You have no favorite questions yet.';
+        } else {
+            questionTextEl.textContent = 'Please select a module to begin.';
+        }
         answersListEl.innerHTML = '';
         return;
       }
 
       const q = quizData[current];
+      updateFavoriteIcon();
       questionIndexEl.textContent = `Question ${current + 1} / ${quizData.length}`;
       questionTextEl.textContent = q.question_text || q.question || '';
       answersListEl.innerHTML = '';
@@ -366,6 +420,32 @@
         document.getElementById('check-btn').style.display = 'none';
     }
 
+    function updateFavoriteIcon() {
+        const q = quizData[current];
+        const isFavorite = favorites.has(q.question_id);
+        document.getElementById('star-filled').style.display = isFavorite ? 'block' : 'none';
+        document.getElementById('star-outline').style.display = isFavorite ? 'none' : 'block';
+    }
+
+    document.getElementById('favorite-btn').addEventListener('click', () => {
+        const q = quizData[current];
+        if (favorites.has(q.question_id)) {
+            favorites.delete(q.question_id);
+        } else {
+            favorites.add(q.question_id);
+        }
+        localStorage.setItem('favoriteQuestions', JSON.stringify(Array.from(favorites)));
+        updateFavoriteIcon();
+        renderSidebar();
+        if (document.getElementById('favorites-label').style.display === 'inline-block') {
+            if (favorites.size === 0) {
+                document.getElementById('clear-favorites-btn').disabled = true;
+            } else {
+                document.getElementById('clear-favorites-btn').disabled = false;
+            }
+        }
+    });
+
     function renderSidebar() {
       const sidebar = document.getElementById('sidebar');
       if (!sidebar) return;
@@ -373,7 +453,13 @@
       quizData.forEach((q, idx) => {
         const btn = document.createElement('button');
         btn.className = 'sidebar-btn' + (idx === current ? ' active' : '');
-        btn.textContent = `Question ${idx + 1}`;
+        const isFavorite = favorites.has(q.question_id);
+        btn.innerHTML = `
+            <span style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+                <span>Question ${idx + 1}</span>
+                ${isFavorite ? '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>' : ''}
+            </span>
+        `;
         btn.onclick = () => {
           current = idx;
           renderQuestion();
@@ -411,6 +497,11 @@
 
 
     moduleSelect.addEventListener('change', function() {
+      if (this.value === 'all') {
+        document.getElementById('favorites-btn').disabled = true;
+      } else {
+        document.getElementById('favorites-btn').disabled = false;
+      }
       loadQuizForModule(this.value);
       this.blur();
     });
@@ -514,8 +605,84 @@
     }
     document.addEventListener('keydown', handleKeyNavigation);
 
+    document.getElementById('favorites-btn').addEventListener('click', () => {
+        lastSelectedModule = moduleSelect.value;
+        const allFavoritedQuizzes = [];
+        for (let i = 1; i <= 9; i++) {
+            const moduleId = String(i);
+            if (moduleQuizCache.has(moduleId)) {
+                const quizzes = moduleQuizCache.get(moduleId);
+                const favorited = quizzes.filter(q => favorites.has(q.question_id));
+                allFavoritedQuizzes.push(...favorited);
+            }
+        }
+        quizData = allFavoritedQuizzes;
+        current = 0;
+        renderQuestion();
+        renderSidebar();
+        document.getElementById('moduleSelect').value = '';
+        document.getElementById('moduleSelect').disabled = true;
+        document.querySelector('#moduleSelect option[value="all"]').disabled = true;
+        document.getElementById('favorites-btn').style.display = 'none';
+        document.getElementById('show-all-btn').style.display = 'inline-block';
+        document.getElementById('favorites-label').style.display = 'inline-block';
+        document.getElementById('clear-favorites-btn').style.display = 'inline-block';
+        if (favorites.size === 0) {
+            document.getElementById('clear-favorites-btn').disabled = true;
+        } else {
+            document.getElementById('clear-favorites-btn').disabled = false;
+        }
+        if (lastSelectedModule === 'all') {
+            document.getElementById('back-to-all-btn').style.display = 'inline-block';
+        }
+    });
+
+    document.getElementById('show-all-btn').addEventListener('click', () => {
+        moduleSelect.value = lastSelectedModule;
+        loadQuizForModule(lastSelectedModule);
+        document.getElementById('moduleSelect').disabled = false;
+        document.querySelector('#moduleSelect option[value="all"]').disabled = false;
+        document.getElementById('favorites-btn').style.display = 'inline-block';
+        document.getElementById('show-all-btn').style.display = 'none';
+        document.getElementById('favorites-label').style.display = 'none';
+        document.getElementById('clear-favorites-btn').style.display = 'none';
+        if (lastSelectedModule === 'all') {
+            document.getElementById('back-to-all-btn').style.display = 'none';
+        }
+    });
+
+    document.getElementById('clear-favorites-btn').addEventListener('click', () => {
+        favorites.clear();
+        localStorage.setItem('favoriteQuestions', JSON.stringify([]));
+        quizData = [];
+        renderQuestion();
+        renderSidebar();
+        document.getElementById('clear-favorites-btn').disabled = true;
+    });
+
+    document.getElementById('back-to-all-btn').addEventListener('click', () => {
+        moduleSelect.value = 'all';
+        loadQuizForModule('all');
+        document.getElementById('moduleSelect').disabled = false;
+        document.querySelector('#moduleSelect option[value="all"]').disabled = false;
+        document.getElementById('favorites-btn').style.display = 'inline-block';
+        document.getElementById('favorites-btn').disabled = false;
+        document.getElementById('show-all-btn').style.display = 'none';
+        document.getElementById('favorites-label').style.display = 'none';
+        document.getElementById('back-to-all-btn').style.display = 'none';
+    });
+
     // Initial Load
-    renderQuestion();
+    if (lastViewedModule) {
+        moduleSelect.value = lastViewedModule;
+        loadQuizForModule(lastViewedModule).then(() => {
+            current = lastViewedQuestionIndex;
+            renderQuestion();
+            renderSidebar();
+        });
+    } else {
+        renderQuestion();
+    }
 
   </script>
 </body>

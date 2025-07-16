@@ -1,6 +1,6 @@
 [
   {
-    "question_id": "q-0",
+    "question_id": "q-291",
     "question_text": "Product backlog là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -27,7 +27,7 @@
     ]
   },
   {
-    "question_id": "q-1",
+    "question_id": "q-292",
     "question_text": "Đâu là phát biểu đúng về mô hình thác nước\nwaterfall model)?",
     "question_type": "single_answer_question",
     "answers": [
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "question_id": "q-2",
+    "question_id": "q-293",
     "question_text": "Làm thế nào để phát triển sản phẩm dựa trên nhu cầu của khách hàng?",
     "question_type": "single_answer_question",
     "answers": [
@@ -81,7 +81,7 @@
     ]
   },
   {
-    "question_id": "q-3",
+    "question_id": "q-294",
     "question_text": "Nhiệm vụ của Product Manager là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "question_id": "q-4",
+    "question_id": "q-295",
     "question_text": "Khi phát triển một sản phẩm phần mềm, ta nên xây dựng nguyên mẫu khi\nnào?",
     "question_type": "single_answer_question",
     "answers": [
@@ -135,7 +135,7 @@
     ]
   },
   {
-    "question_id": "q-5",
+    "question_id": "q-296",
     "question_text": "Mô hình phát triển phần mềm xoắn ốc?",
     "question_type": "single_answer_question",
     "answers": [
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "question_id": "q-6",
+    "question_id": "q-297",
     "question_text": "Công dụng chính của Persona là?",
     "question_type": "single_answer_question",
     "answers": [
@@ -189,7 +189,7 @@
     ]
   },
   {
-    "question_id": "q-7",
+    "question_id": "q-298",
     "question_text": "Đáp án sai khi nói đến tiêu chí về chất lượng sản phẩm phần mềm là?",
     "question_type": "single_answer_question",
     "answers": [
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "question_id": "q-8",
+    "question_id": "q-299",
     "question_text": "Đâu không là độ đo về độ tin cậy của một hệ thống phần mềm?",
     "question_type": "single_answer_question",
     "answers": [
@@ -243,7 +243,7 @@
     ]
   },
   {
-    "question_id": "q-9",
+    "question_id": "q-300",
     "question_text": "Có thể định nghĩa kỹ nghệ (engineering) là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "question_id": "q-10",
+    "question_id": "q-301",
     "question_text": "Đâu không phải nguyên nhân gây ra khủng hoảng phần mềm?",
     "question_type": "single_answer_question",
     "answers": [
@@ -297,7 +297,7 @@
     ]
   },
   {
-    "question_id": "q-11",
+    "question_id": "q-302",
     "question_text": "Đặc điểm của quy trình phần mềm?",
     "question_type": "single_answer_question",
     "answers": [
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "question_id": "q-12",
+    "question_id": "q-303",
     "question_text": "Qui trình phát triển phần mềm lần lượt theo các giai đoạn được gọi là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -351,7 +351,7 @@
     ]
   },
   {
-    "question_id": "q-13",
+    "question_id": "q-304",
     "question_text": "Thứ tự đúng các giai đoạn của phần mềm là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -378,7 +378,7 @@
     ]
   },
   {
-    "question_id": "q-14",
+    "question_id": "q-305",
     "question_text": "Câu nào sau đây đúng khi nói về ngôn ngữ lập trình bậc cao?",
     "question_type": "single_answer_question",
     "answers": [
@@ -405,7 +405,7 @@
     ]
   },
   {
-    "question_id": "q-15",
+    "question_id": "q-306",
     "question_text": "Đâu là giai đoạn cuối cùng của các phương pháp phát triển phần mềm truyền\nthống?",
     "question_type": "single_answer_question",
     "answers": [
@@ -432,7 +432,7 @@
     ]
   },
   {
-    "question_id": "q-16",
+    "question_id": "q-307",
     "question_text": "Yêu cầu phần mềm có thể chia ra thành các lọai nào sau đây?",
     "question_type": "single_answer_question",
     "answers": [
@@ -459,7 +459,7 @@
     ]
   },
   {
-    "question_id": "q-17",
+    "question_id": "q-308",
     "question_text": "Trong các giai đoạn phát triển phần mềm giai đoạn nào tiêu tốn nhiều chi phí\nnhất?",
     "question_type": "single_answer_question",
     "answers": [
@@ -486,7 +486,7 @@
     ]
   },
   {
-    "question_id": "q-18",
+    "question_id": "q-309",
     "question_text": "Đâu không phải là một bước của kỹ thuật yêu cầu?",
     "question_type": "single_answer_question",
     "answers": [
@@ -513,7 +513,7 @@
     ]
   },
   {
-    "question_id": "q-19",
+    "question_id": "q-310",
     "question_text": "Đâu là kết quả của giai đoạn kỹ thuật yêu cầu?",
     "question_type": "single_answer_question",
     "answers": [
@@ -540,7 +540,7 @@
     ]
   },
   {
-    "question_id": "q-20",
+    "question_id": "q-311",
     "question_text": "Điều nào sau đây không được xác định trong tài liệu đặc tả yêu cầu phần mềm\ntốt?",
     "question_type": "single_answer_question",
     "answers": [
@@ -567,7 +567,7 @@
     ]
   },
   {
-    "question_id": "q-21",
+    "question_id": "q-312",
     "question_text": "Đâu là ý đúng về thiết kế phần mềm?",
     "question_type": "single_answer_question",
     "answers": [
@@ -594,7 +594,7 @@
     ]
   },
   {
-    "question_id": "q-22",
+    "question_id": "q-313",
     "question_text": "Mục đích của thiết kế phần mềm?",
     "question_type": "single_answer_question",
     "answers": [
@@ -621,7 +621,7 @@
     ]
   },
   {
-    "question_id": "q-23",
+    "question_id": "q-314",
     "question_text": "Đâu không phải nguyên tắc trong lập trình phần mềm?",
     "question_type": "single_answer_question",
     "answers": [
@@ -648,7 +648,7 @@
     ]
   },
   {
-    "question_id": "q-24",
+    "question_id": "q-315",
     "question_text": "Đâu là một trong những đặc điểm của Git?",
     "question_type": "single_answer_question",
     "answers": [
@@ -675,7 +675,7 @@
     ]
   },
   {
-    "question_id": "q-25",
+    "question_id": "q-316",
     "question_text": "Mục đích của (Version Control System – VCS) là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -702,7 +702,7 @@
     ]
   },
   {
-    "question_id": "q-26",
+    "question_id": "q-317",
     "question_text": "Người dùng hệ thống quản lý phiên bản (Version Control System – VCS)\nkhông thể làm gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -729,7 +729,7 @@
     ]
   },
   {
-    "question_id": "q-27",
+    "question_id": "q-318",
     "question_text": "Đâu không phải là lợi ích của việc dùng (Version Control System – VCS)?",
     "question_type": "single_answer_question",
     "answers": [
@@ -756,7 +756,7 @@
     ]
   },
   {
-    "question_id": "q-28",
+    "question_id": "q-319",
     "question_text": "Hoạt động không thể thực hiện được thông qua hệ thống kiểm soát phiên bản\n(Version Control System – VCS)?",
     "question_type": "single_answer_question",
     "answers": [
@@ -783,7 +783,7 @@
     ]
   },
   {
-    "question_id": "q-29",
+    "question_id": "q-320",
     "question_text": "Câu trả lời nào sau đây miêu tả đúng về Git?",
     "question_type": "single_answer_question",
     "answers": [
@@ -810,7 +810,7 @@
     ]
   },
   {
-    "question_id": "q-30",
+    "question_id": "q-321",
     "question_text": "Có thể phân loại yêu cầu phần mềm thành gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -837,7 +837,7 @@
     ]
   },
   {
-    "question_id": "q-31",
+    "question_id": "q-322",
     "question_text": "Tại sao kĩ thuật yêu cầu lại rất quan trọng?",
     "question_type": "single_answer_question",
     "answers": [
@@ -864,7 +864,7 @@
     ]
   },
   {
-    "question_id": "q-32",
+    "question_id": "q-323",
     "question_text": "Làm thế nào để đánh giá chất lượng phần mềm?",
     "question_type": "single_answer_question",
     "answers": [
@@ -891,7 +891,7 @@
     ]
   },
   {
-    "question_id": "q-33",
+    "question_id": "q-324",
     "question_text": "Chất lượng phần mềm là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -918,7 +918,7 @@
     ]
   },
   {
-    "question_id": "q-34",
+    "question_id": "q-325",
     "question_text": "UML là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -945,7 +945,7 @@
     ]
   },
   {
-    "question_id": "q-35",
+    "question_id": "q-326",
     "question_text": "Loại mô hình nào được tạo ra trong phân tích yêu cầu phần mềm?",
     "question_type": "single_answer_question",
     "answers": [
@@ -972,7 +972,7 @@
     ]
   },
   {
-    "question_id": "q-36",
+    "question_id": "q-327",
     "question_text": "Mục nào không là một phần của kiến trúc phần mềm?",
     "question_type": "single_answer_question",
     "answers": [
@@ -999,7 +999,7 @@
     ]
   },
   {
-    "question_id": "q-37",
+    "question_id": "q-328",
     "question_text": "Chọn câu trả lời đúng?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1026,7 +1026,7 @@
     ]
   },
   {
-    "question_id": "q-38",
+    "question_id": "q-329",
     "question_text": "Yếu tố nào không phải là yếu tố chính của kiến trúc phần mềm?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1053,7 +1053,7 @@
     ]
   },
   {
-    "question_id": "q-39",
+    "question_id": "q-330",
     "question_text": "Kết nối phần mềm là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1080,7 +1080,7 @@
     ]
   },
   {
-    "question_id": "q-40",
+    "question_id": "q-331",
     "question_text": "Đâu không phải là kiểu kiến trúc phần mềm?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1107,7 +1107,7 @@
     ]
   },
   {
-    "question_id": "q-41",
+    "question_id": "q-332",
     "question_text": "Để xây dựng phần mềm thành công cần có những yếu tố nào?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1134,7 +1134,7 @@
     ]
   },
   {
-    "question_id": "q-42",
+    "question_id": "q-333",
     "question_text": "Độ lớn trong phân tích yêu cầu là?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1161,7 +1161,7 @@
     ]
   },
   {
-    "question_id": "q-43",
+    "question_id": "q-334",
     "question_text": "Điều đầu tiên cần làm khi nhận được một danh sách các yêu cầu từ khách hàng\nlà gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1188,7 +1188,7 @@
     ]
   },
   {
-    "question_id": "q-44",
+    "question_id": "q-335",
     "question_text": "Kết quả của giai đoạn thu thập yêu cầu là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1215,7 +1215,7 @@
     ]
   },
   {
-    "question_id": "q-45",
+    "question_id": "q-336",
     "question_text": "Có thể dễ dàng tìm ra được các phương thức của lớp thông qua gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1242,7 +1242,7 @@
     ]
   },
   {
-    "question_id": "q-46",
+    "question_id": "q-337",
     "question_text": "Việc tinh chỉnh sơ đồ lớp có thực sự cần thiết ko?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1269,7 +1269,7 @@
     ]
   },
   {
-    "question_id": "q-47",
+    "question_id": "q-338",
     "question_text": "Khi nào thì nên tinh chỉnh sơ đồ lớp?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1296,7 +1296,7 @@
     ]
   },
   {
-    "question_id": "q-48",
+    "question_id": "q-339",
     "question_text": "Ta có thể thể hiện mối quan hệ đồng cấp giữa các lớp như thế nào?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1323,7 +1323,7 @@
     ]
   },
   {
-    "question_id": "q-49",
+    "question_id": "q-340",
     "question_text": "Một đặc trưng của thiết kế tốt là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1350,7 +1350,7 @@
     ]
   },
   {
-    "question_id": "q-50",
+    "question_id": "q-341",
     "question_text": "Các mẫu thiết kế có tác dụng gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1377,7 +1377,7 @@
     ]
   },
   {
-    "question_id": "q-51",
+    "question_id": "q-342",
     "question_text": "Khi nghiên cứu về kiểm thử phần mềm người ta đã chỉ ra rằng trung bình 1000\ndòng mã nguồn có khoảng bao nhiêu lỗi?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1404,7 +1404,7 @@
     ]
   },
   {
-    "question_id": "q-52",
+    "question_id": "q-343",
     "question_text": "Xây dựng 1 phần mềm lớn chính xác 100% là điều như thế nào?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1431,7 +1431,7 @@
     ]
   },
   {
-    "question_id": "q-53",
+    "question_id": "q-344",
     "question_text": "Thuật ngữ fault trong công nghệ phần mềm là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1458,7 +1458,7 @@
     ]
   },
   {
-    "question_id": "q-54",
+    "question_id": "q-345",
     "question_text": "Fault là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1485,7 +1485,7 @@
     ]
   },
   {
-    "question_id": "q-55",
+    "question_id": "q-346",
     "question_text": "Thuật ngữ nào không nói về lỗi trong kiểm thử phần mềm?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1512,7 +1512,7 @@
     ]
   },
   {
-    "question_id": "q-56",
+    "question_id": "q-347",
     "question_text": "Thuật ngữ Error trong xác minh phần mềm là?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1539,7 +1539,7 @@
     ]
   },
   {
-    "question_id": "q-57",
+    "question_id": "q-348",
     "question_text": "Đâu không phải là phương pháp xác minh?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1566,7 +1566,7 @@
     ]
   },
   {
-    "question_id": "q-58",
+    "question_id": "q-349",
     "question_text": "Cách xác minh lỗi nào là hoàn hảo nhất?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1593,7 +1593,7 @@
     ]
   },
   {
-    "question_id": "q-59",
+    "question_id": "q-350",
     "question_text": "Kiểm thử mà xem phần mềm như 1 hộp kín là kỹ thuật kiểm thử nào?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1620,7 +1620,7 @@
     ]
   },
   {
-    "question_id": "q-60",
+    "question_id": "q-351",
     "question_text": "Mục tiêu đầu tiên của quá trình kiểm thử là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1647,7 +1647,7 @@
     ]
   },
   {
-    "question_id": "q-61",
+    "question_id": "q-352",
     "question_text": "Đâu không phải là đặc điểm của kiểm thử hộp đen?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1674,7 +1674,7 @@
     ]
   },
   {
-    "question_id": "q-62",
+    "question_id": "q-353",
     "question_text": "Đặc điểm nào dưới đây không phải của Kiểm thử hộp đen:",
     "question_type": "single_answer_question",
     "answers": [
@@ -1701,7 +1701,7 @@
     ]
   },
   {
-    "question_id": "q-63",
+    "question_id": "q-354",
     "question_text": "Bước đầu tiên trong quy trình xây dựng các ca kiểm thử khi kiểm thử theo\nphương pháp hộp đen là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1728,7 +1728,7 @@
     ]
   },
   {
-    "question_id": "q-64",
+    "question_id": "q-355",
     "question_text": "Tại sao chúng ta không kiểm thử ngẫu nhiên?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1755,7 +1755,7 @@
     ]
   },
   {
-    "question_id": "q-65",
+    "question_id": "q-356",
     "question_text": "Ý tưởng cơ bản của kiểm thử giá trị biên là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1782,7 +1782,7 @@
     ]
   },
   {
-    "question_id": "q-66",
+    "question_id": "q-357",
     "question_text": "Tại sao nên kiểm thử giá trị biên?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1809,7 +1809,7 @@
     ]
   },
   {
-    "question_id": "q-67",
+    "question_id": "q-358",
     "question_text": "Đâu không phải là đặc điểm của máy hữu hạn trạng thái?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1836,7 +1836,7 @@
     ]
   },
   {
-    "question_id": "q-68",
+    "question_id": "q-359",
     "question_text": "Đâu là lợi ích của kiểm thử hộp trắng?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1863,7 +1863,7 @@
     ]
   },
   {
-    "question_id": "q-69",
+    "question_id": "q-360",
     "question_text": "Lợi ích của kiểm thử hộp trắng là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1890,7 +1890,7 @@
     ]
   },
   {
-    "question_id": "q-70",
+    "question_id": "q-361",
     "question_text": "Các tiêu chuẩn bao phủ được xác định bằng?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1917,7 +1917,7 @@
     ]
   },
   {
-    "question_id": "q-71",
+    "question_id": "q-362",
     "question_text": "Trong thực tế người ta sử dụng kiểu bao phủ nào trong các kiểu sau?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1944,7 +1944,7 @@
     ]
   },
   {
-    "question_id": "q-72",
+    "question_id": "q-363",
     "question_text": "Điều nào sau đây không đúng về kiêm thử hộp trắng?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1971,7 +1971,7 @@
     ]
   },
   {
-    "question_id": "q-73",
+    "question_id": "q-364",
     "question_text": "Chọn phát biểu đúng nhất trong các phát biểu sau?",
     "question_type": "single_answer_question",
     "answers": [
@@ -1998,7 +1998,7 @@
     ]
   },
   {
-    "question_id": "q-74",
+    "question_id": "q-365",
     "question_text": "Loại kiểm thử nào sử dụng đặc tả yêu cầu để sinh các ca kiểm thử?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2025,7 +2025,7 @@
     ]
   },
   {
-    "question_id": "q-75",
+    "question_id": "q-366",
     "question_text": "Chọn phát biểu đúng nhất trong các phát biểu sau?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2052,7 +2052,7 @@
     ]
   },
   {
-    "question_id": "q-76",
+    "question_id": "q-367",
     "question_text": "Trong các giai đoạn dưới đây giai đoạn nào là giai đoạn nếu phát hiện ra lỗi thì\nchi phí sửa chữa là nhỏ nhất?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2079,7 +2079,7 @@
     ]
   },
   {
-    "question_id": "q-77",
+    "question_id": "q-368",
     "question_text": "Đâu không phải nguyên tắc của phát triển phần mềm linh hoạt (agile)?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2106,7 +2106,7 @@
     ]
   },
   {
-    "question_id": "q-78",
+    "question_id": "q-369",
     "question_text": "Theo phương pháp linh hoạt (agile), ta cần làm như thế nào?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2133,7 +2133,7 @@
     ]
   },
   {
-    "question_id": "q-79",
+    "question_id": "q-370",
     "question_text": "Ý kiến nào không đúng về lập trình cực đoan?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2160,7 +2160,7 @@
     ]
   },
   {
-    "question_id": "q-80",
+    "question_id": "q-371",
     "question_text": "Đâu không phải là một trong những bước của tích hợp liên tục?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2187,7 +2187,7 @@
     ]
   },
   {
-    "question_id": "q-81",
+    "question_id": "q-372",
     "question_text": "Chọn câu trả lời đúng về lập trình cực đoan (XP)?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2214,7 +2214,7 @@
     ]
   },
   {
-    "question_id": "q-82",
+    "question_id": "q-373",
     "question_text": "Trong các quy trình sau đâu không phải quy trình phát triển phần mềm linh\nhoạt?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2241,7 +2241,7 @@
     ]
   },
   {
-    "question_id": "q-83",
+    "question_id": "q-374",
     "question_text": "Mục đích của tái cấu trúc là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2268,7 +2268,7 @@
     ]
   },
   {
-    "question_id": "q-84",
+    "question_id": "q-375",
     "question_text": "Đâu không phải lý do khiến ta cần phải tái cấu trúc?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2295,7 +2295,7 @@
     ]
   },
   {
-    "question_id": "q-85",
+    "question_id": "q-376",
     "question_text": "Đâu không phải lý do dẫn đến yêu cầu tái cấu trúc (refactor)?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2322,7 +2322,7 @@
     ]
   },
   {
-    "question_id": "q-86",
+    "question_id": "q-377",
     "question_text": "Tái cấu trúc tách lớp dùng khi nào?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2349,7 +2349,7 @@
     ]
   },
   {
-    "question_id": "q-87",
+    "question_id": "q-378",
     "question_text": "Đâu không phải là lưu ý khi tái cấu trúc?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2376,7 +2376,7 @@
     ]
   },
   {
-    "question_id": "q-88",
+    "question_id": "q-379",
     "question_text": "Che giấu thông tin là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2403,7 +2403,7 @@
     ]
   },
   {
-    "question_id": "q-89",
+    "question_id": "q-380",
     "question_text": "Một trong những lợi ích của hướng đối tượng là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2430,7 +2430,7 @@
     ]
   },
   {
-    "question_id": "q-90",
+    "question_id": "q-381",
     "question_text": "Đặc điểm của tên lớp trong hướng đối tượng thường là?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2457,7 +2457,7 @@
     ]
   },
   {
-    "question_id": "q-91",
+    "question_id": "q-382",
     "question_text": "Bằng cách gạch chân các danh từ trong tài liệu mô tả, ta có thể xác định được\ngì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2484,7 +2484,7 @@
     ]
   },
   {
-    "question_id": "q-92",
+    "question_id": "q-383",
     "question_text": "Phân tích hướng đối tượng chủ yếu quan tâm tới điều gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2511,7 +2511,7 @@
     ]
   },
   {
-    "question_id": "q-93",
+    "question_id": "q-384",
     "question_text": "Đâu không phải là một yếu tố chính của một mẫu thiết kế?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2538,7 +2538,7 @@
     ]
   },
   {
-    "question_id": "q-94",
+    "question_id": "q-385",
     "question_text": "Định dạng mẫu thiết kế gồm?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2565,7 +2565,7 @@
     ]
   },
   {
-    "question_id": "q-95",
+    "question_id": "q-386",
     "question_text": "Điều nào đúng về mẫu chiến lược?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2592,7 +2592,7 @@
     ]
   },
   {
-    "question_id": "q-96",
+    "question_id": "q-387",
     "question_text": "Mẫu chiến lược (Strategy) là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2619,7 +2619,7 @@
     ]
   },
   {
-    "question_id": "q-97",
+    "question_id": "q-388",
     "question_text": "Đâu không phải là tên một mẫu thiết kế?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2646,7 +2646,7 @@
     ]
   },
   {
-    "question_id": "q-98",
+    "question_id": "q-389",
     "question_text": "Làm thế nào để lựa chọn một mẫu thiết kế phù hợp?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2673,7 +2673,7 @@
     ]
   },
   {
-    "question_id": "q-99",
+    "question_id": "q-390",
     "question_text": "Điều tiên quyết cần làm để sử dụng mẫu thiết kế là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -2700,7 +2700,7 @@
     ]
   },
   {
-    "question_id": "q-100",
+    "question_id": "q-391",
     "question_text": "RUP là gì?",
     "question_type": "single_answer_question",
     "answers": [
