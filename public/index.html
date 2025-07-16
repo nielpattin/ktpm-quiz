@@ -11,7 +11,7 @@
       margin: 0;
       padding: 0;
       overflow: hidden;
-      overscroll-behavior-y: none; /* Changed from contain */
+      overscroll-behavior-y: none;
     }
     body {
       background: #1D1B2C;
@@ -73,7 +73,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        overflow-y: hidden; /* Changed from auto to hidden */
+        overflow-y: hidden;
         padding: 20px 0;
     }
     .quiz-card {
@@ -89,7 +89,7 @@
       flex-direction: column;
       gap: 24px;
       flex-shrink: 0;
-      overflow: hidden; /* Add this */
+      overflow: hidden;
     }
     .question-row {
       margin-top: 32px;
@@ -336,7 +336,6 @@
             }
             document.getElementById('check-btn').style.display = selectedAnswers.length > 0 ? 'block' : 'none';
         } else {
-            // Single answer
             selectedAnswers = [answerIndex];
             checkAnswers();
         }
@@ -431,15 +430,13 @@
       }
     });
 
-    // Prevent pull-to-refresh, but allow interaction with buttons
     document.addEventListener('touchstart', function(e) {
-      // Check if the touch target is an interactive element
       const targetTagName = e.target.tagName;
       if (targetTagName === 'BUTTON' || targetTagName === 'SELECT' || targetTagName === 'OPTION' || e.target.closest('.sidebar-btn') || e.target.closest('#hamburgerBtn')) {
-        return; // Allow default behavior for buttons and select elements
+        return;
       }
 
-      if (e.touches[0].clientY < 50) { // Detect touch near top of screen
+      if (e.touches[0].clientY < 50) {
         e.preventDefault();
       }
     }, { passive: false });
@@ -451,12 +448,11 @@
 
     mainContent.addEventListener('touchmove', function(e) {
       if (!sidebar.classList.contains('open')) {
-        // Check if the touch target is an interactive element
         const targetTagName = e.target.tagName;
         if (targetTagName === 'BUTTON' || targetTagName === 'SELECT' || targetTagName === 'OPTION' || e.target.closest('.sidebar-btn') || e.target.closest('#hamburgerBtn')) {
-          return; // Allow default behavior for buttons and select elements
+          return;
         }
-        e.preventDefault(); // Prevent browser scrolling/refresh during swipe
+        e.preventDefault();
       }
     }, { passive: false });
 
@@ -468,7 +464,6 @@
 
     function handleSwipe() {
       if (touchEndY < touchStartY - 50) {
-        // Swiped up (Next)
         if (current < quizData.length - 1) {
           current++;
           renderQuestion();
@@ -477,7 +472,6 @@
           goToNextModule();
         }
       } else if (touchEndY > touchStartY + 50) {
-        // Swiped down (Previous)
         if (current > 0) {
           current--;
           renderQuestion();
@@ -489,7 +483,6 @@
     }
 
     function handleKeyNavigation(e) {
-        // Only handle navigation if not focused on input/select and not locked
         if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'SELECT') return;
 
         if (e.key === 'ArrowDown' || e.key === 's' || e.key === 'S') {
