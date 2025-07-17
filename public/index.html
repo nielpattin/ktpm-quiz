@@ -75,7 +75,6 @@
         align-items: center;
         justify-content: flex-start;
         overflow-y: auto;
-        padding: 20px 0;
         max-height: 100%;
     }
     .quiz-card {
@@ -262,7 +261,7 @@
       </select>
       <button id="favorites-btn" style="margin-left: 12px; font-size: 1.05rem; padding: 4px 10px; border-radius: 6px;">Favorites</button>
       <button id="show-all-btn" style="margin-left: 12px; font-size: 1.05rem; padding: 4px 10px; border-radius: 6px; display: none;">Show All</button>
-      <span id="favorites-label" style="margin-left: 12px; font-size: 1.1rem; display: none;">Viewing Favorites</span>
+      <span id="favorites-label" style="margin-left: 12px; font-size: 1.1rem; display: none;"></span>
       <button id="back-to-all-btn" style="margin-left: 12px; font-size: 1.05rem; padding: 4px 10px; border-radius: 6px; display: none;">Back to All Modules</button>
       <button id="clear-favorites-btn" style="margin-left: 12px; font-size: 1.05rem; padding: 4px 10px; border-radius: 6px; display: none;">Clear Favorites</button>
     </div>
@@ -391,6 +390,7 @@
         questionIndexEl.textContent = '';
         if (document.getElementById('favorites-label').style.display === 'inline-block') {
             questionTextEl.textContent = 'You have no favorite questions yet.';
+            document.getElementById('clear-favorites-btn').disabled = true;
         } else {
             questionTextEl.textContent = 'Please select a module to begin.';
         }
@@ -686,11 +686,7 @@
         document.getElementById('show-all-btn').style.display = 'inline-block';
         document.getElementById('favorites-label').style.display = 'inline-block';
         document.getElementById('clear-favorites-btn').style.display = 'inline-block';
-        if (favorites.size === 0) {
-            document.getElementById('clear-favorites-btn').disabled = true;
-        } else {
-            document.getElementById('clear-favorites-btn').disabled = false;
-        }
+        document.getElementById('clear-favorites-btn').disabled = (favorites.size === 0);
         if (appState.all.module === 'all') {
             document.getElementById('back-to-all-btn').style.display = 'inline-block';
         }
@@ -785,11 +781,7 @@
             document.getElementById('show-all-btn').style.display = 'inline-block';
             document.getElementById('favorites-label').style.display = 'inline-block';
             document.getElementById('clear-favorites-btn').style.display = 'inline-block';
-            if (favorites.size === 0) {
-                document.getElementById('clear-favorites-btn').disabled = true;
-            } else {
-                document.getElementById('clear-favorites-btn').disabled = false;
-            }
+            document.getElementById('clear-favorites-btn').disabled = (favorites.size === 0);
             // If the last selected module was 'all', show the 'Back to All Modules' button
             if (appState.all.module === 'all') {
                 document.getElementById('back-to-all-btn').style.display = 'inline-block';
