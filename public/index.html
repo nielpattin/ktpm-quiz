@@ -314,7 +314,7 @@
         if (!currentModuleId) return;
         const nextModuleId = (currentModuleId % 9) + 1;
         moduleSelect.value = nextModuleId;
-        loadQuizForModule(String(nextModuleId), appState.all.questionIndex);
+        loadQuizForModule(String(nextModuleId), 0);
     }
 
     function goToPreviousModule() {
@@ -322,7 +322,7 @@
         if (!currentModuleId) return;
         const prevModuleId = ((currentModuleId - 2 + 9) % 9) + 1;
         moduleSelect.value = prevModuleId;
-        loadQuizForModule(String(prevModuleId), appState.all.questionIndex);
+        loadQuizForModule(String(prevModuleId), 0);
     }
 
 
