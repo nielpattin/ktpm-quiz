@@ -66,6 +66,7 @@
         justify-content: center;
         padding: 18px 0;
         flex-shrink: 0;
+        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
     }
     #main-content {
         flex-grow: 1;
@@ -205,22 +206,14 @@
       }
       .top-bar {
         padding-left: 60px;
-        flex-direction: column;
+        flex-direction: row; /* Keep as row */
+        flex-wrap: wrap; /* Allow wrapping */
+        justify-content: center; /* Center items when wrapped */
         align-items: center;
       }
-      .top-bar label, .top-bar span {
-        margin-left: 0 !important;
-        margin-top: 8px;
+      .top-bar select, .top-bar button, .top-bar span {
+        margin: 4px !important; /* Adjust margins for better spacing */
         box-sizing: border-box;
-      }
-      .top-bar select, .top-bar button {
-        margin-left: 0 !important;
-        margin-top: 8px;
-        max-width: 200px;
-        box-sizing: border-box;
-      }
-      .top-bar label {
-        margin-top: 0;
       }
     }
 
@@ -256,7 +249,6 @@
   <div class="sidebar" id="sidebar"></div>
   <div id="main-content-wrapper">
     <div class="top-bar">
-      <label for="moduleSelect" style="margin-right: 12px; font-size: 1.1rem;">Module:</label>
       <select id="moduleSelect" style="font-size: 1.05rem; padding: 4px 10px; border-radius: 6px;">
         <option value="">Select Module</option>
         <option value="1">Module 1</option>
