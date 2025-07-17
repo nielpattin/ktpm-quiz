@@ -578,5 +578,110 @@
     initialLoad();
 
   </script>
+  <!-- Floating Favorites ID Button and Modal -->
+  <button id="fav-id-fab" class="fav-id-fab">★</button>
+  <div id="fav-id-modal" class="fav-id-modal-backdrop">
+    <div class="fav-id-modal">
+      <h3>Favorite Question IDs</h3>
+      <textarea id="fav-id-list" readonly></textarea>
+      <div class="fav-id-modal-btn-row">
+        <button id="copy-fav-id-btn">Copy</button>
+        <button id="paste-fav-id-btn">Paste & Import</button>
+        <button id="close-fav-id-modal">Close</button>
+      </div>
+      <small>Copy/paste to share favorites between devices.</small>
+    </div>
+  </div>
+  <script>
+    // Floating favorites modal - clean implementation
+    (function() {
+      const favIdFab = document.getElementById('fav-id-fab');
+      const favIdModal = document.getElementById('fav-id-modal');
+      const favIdList = document.getElementById('fav-id-list');
+      const copyFavIdBtn = document.getElementById('copy-fav-id-btn');
+      const pasteFavIdBtn = document.getElementById('paste-fav-id-btn');
+      const closeFavIdModal = document.getElementById('close-fav-id-modal');
+
+      function getFavoriteIds() {
+        return Array.from(JSON.parse(localStorage.getItem('favoriteQuestions')) || []);
+      }
+
+      function setFavoriteIds(ids) {
+        localStorage.setItem('favoriteQuestions', JSON.stringify(ids));
+        if (typeof favorites !== "undefined") {
+          favorites = new Set(ids);
+          if (typeof renderSidebar === "function") renderSidebar();
+          if (typeof renderQuestion === "function") renderQuestion();
+        }
+      }
+
+      // Open modal
+      favIdFab.onclick = () => {
+        const ids = getFavoriteIds();
+        favIdList.value = ids.join('\n');
+        favIdModal.classList.add('active');
+      };
+
+      // Close modal
+      closeFavIdModal.onclick = () => {
+        favIdModal.classList.remove('active');
+      };
+
+      // Copy functionality
+      copyFavIdBtn.onclick = async () => {
+        try {
+          favIdList.removeAttribute('readonly');
+          favIdList.focus();
+          favIdList.select();
+          document.execCommand('copy');
+          favIdList.setAttribute('readonly', 'readonly');
+          copyFavIdBtn.textContent = "Copied!";
+          setTimeout(() => copyFavIdBtn.textContent = "Copy", 1200);
+        } catch (err) {
+          copyFavIdBtn.textContent = "Failed";
+          setTimeout(() => copyFavIdBtn.textContent = "Copy", 1200);
+        }
+      };
+
+      // Paste functionality
+      pasteFavIdBtn.onclick = async () => {
+        try {
+          const text = await navigator.clipboard.readText();
+          const ids = text.split(/[\n,]+/).map(s => s.trim()).filter(Boolean);
+          setFavoriteIds(ids);
+          favIdList.value = ids.join('\n');
+          
+          // Update favorites view if currently in it
+          if (typeof appState !== "undefined" && appState.currentView === "favorites") {
+            const res = await fetch('/api/module?id=all');
+            const data = await res.json();
+            if (data && Array.isArray(data.quizzes)) {
+              const allFavoritedQuizzes = data.quizzes.filter(q => ids.includes(q.question_id));
+              quizData = allFavoritedQuizzes;
+              if (current >= quizData.length && quizData.length > 0) {
+                current = quizData.length - 1;
+              } else if (quizData.length === 0) {
+                current = 0;
+              }
+              renderQuestion();
+              renderSidebar();
+              
+              // Enable/disable Clear Favorites button based on whether there are favorites
+              const clearBtn = document.getElementById('clear-favorites-btn');
+              if (clearBtn) {
+                clearBtn.disabled = (ids.length === 0);
+              }
+            }
+          }
+          
+          pasteFavIdBtn.textContent = "Imported!";
+          setTimeout(() => pasteFavIdBtn.textContent = "Paste & Import", 1200);
+        } catch {
+          pasteFavIdBtn.textContent = "Failed";
+          setTimeout(() => pasteFavIdBtn.textContent = "Paste & Import", 1200);
+        }
+      };
+    })();
+  </script>
 </body>
 </html>

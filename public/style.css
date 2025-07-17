@@ -227,3 +227,104 @@ body {
     overflow-wrap: break-word;
     max-width: 100%;
 }
+/* Floating Favorites Button and Modal */
+.fav-id-fab {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  line-height: 1;
+  text-align: center;
+}
+.fav-id-fab:hover {
+  background: #574fd6;
+}
+.fav-id-modal-backdrop {
+  display: none;
+  position: fixed;
+  z-index: 1001;
+  left: 0; top: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.35);
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+}
+.fav-id-modal-backdrop.active {
+  display: flex;
+}
+.fav-id-modal {
+  background: #fff;
+  padding: 24px 20px 20px 20px;
+  border-radius: 14px;
+  min-width: 320px;
+  max-width: 95vw;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.13);
+  position: relative;
+  font-family: inherit;
+  border: 1.5px solid #e0e0f0;
+  color: #23223a;
+}
+.fav-id-modal h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1.18rem;
+  font-weight: 600;
+  color: #574fd6;
+  letter-spacing: 0.01em;
+}
+#fav-id-list {
+  width: 100%;
+  height: 120px;
+  resize: none;
+  font-size: 1rem;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1.2px solid #d3d3e7;
+  background: #f7f7fb;
+  color: #23223a;
+  padding: 8px 10px;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+.fav-id-modal-btn-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.fav-id-modal-btn-row button {
+  flex: 1;
+  font-size: 1rem;
+  padding: 6px 0;
+  border-radius: 7px;
+  border: none;
+  background: #f0f0ff;
+  color: #574fd6;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.18s;
+  box-shadow: 0 1px 2px rgba(90,90,120,0.04);
+}
+.fav-id-modal-btn-row button:hover {
+  background: #e3e3fa;
+}
+.fav-id-modal small {
+  color: #888;
+  font-size: 0.97em;
+}
+@media (max-width: 400px) {
+  .fav-id-modal { min-width: 0; padding: 14px 4vw 12px 4vw; }
+}
