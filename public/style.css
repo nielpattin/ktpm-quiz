@@ -1,0 +1,229 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overscroll-behavior-y: none;
+}
+body {
+  background: #1D1B2C;
+  color: #CECDE0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+.sidebar {
+  width: 250px;
+  background: #29273F;
+  color: #CECDE0;
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+  overflow-y: auto;
+  border-right: 1.5px solid #33314E;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+.sidebar-btn {
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 10px 24px;
+  font-size: 1rem;
+  color: #CECDE0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.sidebar-btn.active {
+  background: #C294FF;
+  color: #222;
+  font-weight: bold;
+}
+.sidebar-btn:not(.active):hover {
+  background: #8582B0;
+  color: #CECDE0;
+}
+#main-content-wrapper {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 0;
+    flex-shrink: 0;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+#main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-y: auto;
+    max-height: 100%;
+}
+.quiz-card {
+  background: #29273F;
+  color: #CECDE0;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  width: 90%;
+  max-width: 90vw;
+  padding: 48px 32px 32px 32px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.question-row {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #CECDE0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+.answers-row {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.answer {
+      padding: 16px 20px;
+      border-radius: 8px;
+      border: 2px solid #33314E;
+      background: #302E4A;
+      font-size: 1.2rem;
+      color: #CECDE0;
+      cursor: pointer;
+      transition: border 0.2s, background 0.2s;
+      position: relative;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      max-width: 100%;
+}
+.answer.correct {
+      border-color: #01DF70 !important;
+      color: #01DF70 !important;
+}
+.answer.incorrect {
+      border-color: #FF4747 !important;
+      color: #FF4747 !important;
+}
+.answer.selected {
+    border-color: #C294FF;
+}
+.hamburger-btn {
+  display: none;
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 1001;
+  background: #C294FF;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+}
+.hamburger-btn span {
+  display: block;
+  width: 24px;
+  height: 3px;
+  background: #222;
+  margin: 4px 0;
+}
+.desktop-tip, .mobile-tip {
+    display: none;
+    color: #8582B0;
+    margin-top: 24px;
+    font-size: 0.9rem;
+}
+#check-btn {
+    display: none;
+    margin-top: 16px;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    background-color: #C294FF;
+    color: #1D1B2C;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#favorites-btn.active {
+    background-color: #C294FF;
+    color: #1D1B2C;
+}
+
+@media (min-width: 901px) {
+    .desktop-tip {
+        display: block;
+    }
+}
+
+@media (max-width: 900px) {
+  .mobile-tip {
+    display: block;
+  }
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translateX(-100%);
+    z-index: 1000;
+    margin: 0;
+    border-radius: 0;
+  }
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  .hamburger-btn {
+    display: block;
+  }
+  body.sidebar-open {
+    overflow: hidden;
+  }
+  .top-bar {
+    padding-left: 60px;
+    flex-direction: row; /* Keep as row */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center; /* Center items when wrapped */
+    align-items: center;
+  }
+  .top-bar select, .top-bar button, .top-bar span {
+    margin: 4px !important; /* Adjust margins for better spacing */
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 600px) {
+  .quiz-card {
+    padding: 16px 4vw 16px 4vw;
+    width: 90vw;
+  }
+  .modal-close {
+    right: 16px;
+    top: 16px;
+  }
+  .question-row {
+    font-size: 1.2rem;
+  }
+  .answer {
+    font-size: 1rem;
+  }
+}
+.quiz-card * {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}

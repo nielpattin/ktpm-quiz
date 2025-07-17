@@ -1,5 +1,6 @@
 {
   "watch": [
-    "public/index.html"
+    "public/index.html",
+    "api/index.js"
   ]
 }
