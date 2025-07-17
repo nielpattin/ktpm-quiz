@@ -4,7 +4,7 @@
   "installCommand": "pnpm install",
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/((?!public/).*)",
       "destination": "/api"
     }
   ]

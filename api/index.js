@@ -8,7 +8,9 @@ const app = express();
 const dbDir = join(process.cwd(), 'db');
 if (!existsSync(dbDir)) mkdirSync(dbDir, { recursive: true });
 
-// Serve static files (*.html, etc.)
+// Serve static files from public directory
+app.use(express.static('public'));
+// Also serve from root for backward compatibility
 app.use(express.static(process.cwd(), { extensions: ['html'] }));
 
 // Serve quiz_interface.html at /quizzes
