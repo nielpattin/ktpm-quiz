@@ -94,11 +94,9 @@
       overflow: hidden;
     }
     .question-row {
-      margin-top: 32px;
       font-size: 1.5rem;
       font-weight: 400;
       color: #CECDE0;
-      min-height: 60px;
       word-wrap: break-word;
       overflow-wrap: break-word;
       max-width: 100%;
@@ -551,6 +549,8 @@
     const mainContent = document.getElementById('main-content');
     let touchStartX = 0;
     let touchEndX = 0;
+    let touchStartY = 0;
+    let touchEndY = 0;
 
     function toggleSidebar() {
       sidebar.classList.toggle('open');
@@ -584,6 +584,7 @@
     mainContent.addEventListener('touchstart', e => {
         if (sidebar.classList.contains('open')) return;
         touchStartX = e.changedTouches[0].screenX;
+        touchStartY = e.changedTouches[0].screenY;
     }, { passive: true });
 
     mainContent.addEventListener('touchmove', function(e) {
@@ -600,25 +601,33 @@
     mainContent.addEventListener('touchend', e => {
         if (sidebar.classList.contains('open')) return;
         touchEndX = e.changedTouches[0].screenX;
+        touchEndY = e.changedTouches[0].screenY;
         handleSwipe();
     });
 
     function handleSwipe() {
-      if (touchEndX < touchStartX - 50) { // Swiped left
-        if (current < quizData.length - 1) {
-          current++;
-          renderQuestion();
-          renderSidebar();
-        } else {
-          goToNextModule();
-        }
-      } else if (touchEndX > touchStartX + 50) { // Swiped right
-        if (current > 0) {
-          current--;
-          renderQuestion();
-          renderSidebar();
-        } else {
-          goToPreviousModule();
+      const deltaX = touchEndX - touchStartX;
+      const deltaY = touchEndY - touchStartY;
+      const minSwipeDistance = 50; // Minimum horizontal distance for a swipe
+      const maxVerticalDeviation = 50; // Maximum vertical deviation allowed for a horizontal swipe
+
+      if (Math.abs(deltaX) > minSwipeDistance && Math.abs(deltaY) < maxVerticalDeviation) {
+        if (deltaX < 0) { // Swiped left
+          if (current < quizData.length - 1) {
+            current++;
+            renderQuestion();
+            renderSidebar();
+          } else {
+            goToNextModule();
+          }
+        } else { // Swiped right
+          if (current > 0) {
+            current--;
+            renderQuestion();
+            renderSidebar();
+          } else {
+            goToPreviousModule();
+          }
         }
       }
     }
