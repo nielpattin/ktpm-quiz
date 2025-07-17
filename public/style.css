@@ -10,6 +10,8 @@ body {
   color: #CECDE0;
   font-family: Arial, sans-serif;
   display: flex;
+  width: 100vw; /* Ensure body doesn't exceed viewport width */
+  max-width: 100vw; /* Prevent horizontal overflow */
 }
 .sidebar {
   width: 250px;
@@ -19,11 +21,15 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  height: 100%;
+  height: 100vh; /* Use viewport height instead of 100% */
+  max-height: 100vh; /* Ensure it doesn't exceed viewport height */
   overflow-y: auto;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
   border-right: 1.5px solid #33314E;
   transition: transform 0.3s ease;
   flex-shrink: 0;
+  min-width: 0;
+  box-sizing: border-box; /* Include padding in height calculation */
 }
 .sidebar-btn {
   background: none;
@@ -45,11 +51,31 @@ body {
   background: #8582B0;
   color: #CECDE0;
 }
+
+/* Sidebar scrollbar styling */
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #29273F;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #8582B0;
+  border-radius: 4px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #C294FF;
+}
 #main-content-wrapper {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     height: 100%;
+    min-width: 0; /* Prevent flex item from growing beyond container */
+    overflow: hidden; /* Ensure content doesn't overflow */
 }
 .top-bar {
     display: flex;
@@ -170,6 +196,13 @@ body {
     }
 }
 
+@media (max-width: 1150px) and (min-width: 901px) {
+    /* For screens between 901px and 1150px, reduce sidebar width to prevent overflow */
+    .sidebar {
+        width: 200px;
+    }
+}
+
 @media (max-width: 900px) {
   .mobile-tip {
     display: block;
@@ -178,11 +211,15 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 100vh; /* Use viewport height */
+    max-height: 100vh; /* Ensure it doesn't exceed viewport height */
     transform: translateX(-100%);
     z-index: 1000;
     margin: 0;
     border-radius: 0;
+    overflow-y: auto; /* Ensure scrolling works in mobile */
+    overflow-x: hidden;
+    box-sizing: border-box;
   }
   .sidebar.open {
     transform: translateX(0);
@@ -195,14 +232,17 @@ body {
   }
   .top-bar {
     padding-left: 60px;
-    flex-direction: row; /* Keep as row */
-    flex-wrap: wrap; /* Allow wrapping */
-    justify-content: center; /* Center items when wrapped */
+    padding-right: 16px; /* Add right padding to prevent overflow */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
   }
   .top-bar select, .top-bar button, .top-bar span {
-    margin: 4px !important; /* Adjust margins for better spacing */
+    margin: 4px !important;
     box-sizing: border-box;
+    max-width: calc(100vw - 100px); /* Prevent individual elements from being too wide */
   }
 }
 
@@ -220,6 +260,15 @@ body {
   }
   .answer {
     font-size: 1rem;
+  }
+  .top-bar {
+    padding-left: 50px; /* Reduce left padding on very small screens */
+    padding-right: 8px;
+  }
+  .top-bar select, .top-bar button, .top-bar span {
+    font-size: 0.9rem !important; /* Slightly smaller font on very small screens */
+    padding: 2px 6px !important; /* Reduce padding */
+    max-width: calc(100vw - 80px) !important; /* More restrictive width */
   }
 }
 .quiz-card * {
