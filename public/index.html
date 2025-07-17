@@ -140,23 +140,30 @@
       renderSidebar();
     }
 
+    function shuffleArray(arr) {
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+    }
+    
     function renderQuestion() {
       selectedAnswers = [];
       questionLocked = false;
       const checkBtn = document.getElementById('check-btn');
       checkBtn.style.display = 'none';
-
+    
       if (appState.currentView === 'all') {
           appState.all.questionIndex = current;
       } else if (appState.currentView === 'favorites') {
           appState.favorites.questionIndex = current;
       }
       localStorage.setItem('appState', JSON.stringify(appState));
-
+    
       const questionTextEl = document.getElementById('questionText');
       const questionIndexEl = document.getElementById('questionIndex');
       const answersListEl = document.getElementById('answersList');
-
+    
       if (!quizData.length) {
         questionIndexEl.textContent = '';
         if (document.getElementById('favorites-label').style.display === 'inline-block') {
@@ -168,7 +175,7 @@
         answersListEl.innerHTML = '';
         return;
       }
-
+    
       const q = quizData[current];
       updateFavoriteIcon();
       let questionIndexText = `Question ${current + 1} / ${quizData.length}`;
@@ -183,11 +190,16 @@
       questionIndexEl.innerHTML = questionIndexText;
       questionTextEl.textContent = q.question_text || q.question || '';
       answersListEl.innerHTML = '';
-      (q.answers || []).forEach((ans, idx) => {
+    
+      // Shuffle answers before rendering, but keep original index for answer checking
+      const shuffledAnswers = (q.answers || []).map((a, i) => ({...a, origIndex: i}));
+      shuffleArray(shuffledAnswers);
+    
+      shuffledAnswers.forEach((ans, idx) => {
         const div = document.createElement('div');
         div.className = 'answer';
         div.textContent = ans.answer_text || ans;
-        div.dataset.index = idx;
+        div.dataset.index = ans.origIndex;
         div.onclick = () => handleAnswerClick(div, q.question_type);
         answersListEl.appendChild(div);
       });
