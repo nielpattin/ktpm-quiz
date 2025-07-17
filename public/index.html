@@ -400,7 +400,16 @@
 
       const q = quizData[current];
       updateFavoriteIcon();
-      questionIndexEl.textContent = `Question ${current + 1} / ${quizData.length}`;
+      let questionIndexText = `Question ${current + 1} / ${quizData.length}`;
+      if (appState.currentView === 'favorites' && q.question_id) {
+          const parts = q.question_id.split('-');
+          if (parts.length === 2) {
+              const moduleNum = parts[0].replace('module', '');
+              const questionId = parts[1];
+              questionIndexText += ` <span style="color: #8582B0; font-size: 0.9em;">(ID: ${questionId})</span>`;
+          }
+      }
+      questionIndexEl.innerHTML = questionIndexText;
       questionTextEl.textContent = q.question_text || q.question || '';
       answersListEl.innerHTML = '';
       (q.answers || []).forEach((ans, idx) => {
